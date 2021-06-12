@@ -27,9 +27,13 @@ const contributors: GitHubProfileProps[] = [
         userName: 'yeboah326',
         role: 'Back-End Engineer',
     },
-    {
+    { 
         userName: 'BernardAddo',
         role: 'Back-End Engineer',
+    },
+    {
+        userName: 'nkyarko',
+        role: 'UI/UX designer',
     },
 ];
 
