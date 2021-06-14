@@ -34,7 +34,7 @@ const contributors: GitHubProfileProps[] = [
     {
         userName: 'Kofi Osei',
         role: 'Learner',
-    }
+    },
 ];
 
 export const GitHubProfile = (props: GitHubProfileProps) => {
