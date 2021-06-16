@@ -32,7 +32,7 @@ const contributors: GitHubProfileProps[] = [
         role: 'Back-End Engineer',
     },
     {
-        userName: 'Kofi Osei',
+        userName: 'Astraking',
         role: 'Learner',
     },
 ];
