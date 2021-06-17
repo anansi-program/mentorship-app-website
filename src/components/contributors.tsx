@@ -37,6 +37,7 @@ const contributors: GitHubProfileProps[] = [
     },
 ];
 
+
 export const GitHubProfile = (props: GitHubProfileProps) => {
     const [name, setName] = React.useState(undefined);
     const [location, setLocation] = React.useState(undefined);
