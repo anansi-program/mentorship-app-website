@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
 
-.navbar{
+.navbar {
     height: 10vh;
     width: 100%;
     display: flex;
@@ -10,7 +10,7 @@
     border-bottom: 1px solid orange;
 }
 
-.logo{
+.logo {
     height: 80%;
     width: 10%;
     display: flex;
@@ -20,17 +20,17 @@
     color: orange;
 }
 
-.nav-items{
+.nav-items {
     height: 80%;
-    width: 60%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.nav-item{
+.nav-item {
     height: 70%;
-    width: 10%;
+    width: 15%;
     text-decoration: none;
     color: black;
     display: flex;
@@ -38,10 +38,10 @@
     justify-content: center;
 }
 
-.nav-item:hover{
+.nav-item:hover {
     border-bottom: 3px solid orange;
 }
 
-.nav-item-selected{
+.nav-item-selected {
     border-bottom: 3px solid orange;
 }
