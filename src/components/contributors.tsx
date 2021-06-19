@@ -24,6 +24,10 @@ const contributors: GitHubProfileProps[] = [
         role: 'Front-End Engineer',
     },
     {
+        userName: 'Jemy-dev',
+        role: 'Front-End Engineer',
+    },
+    {
         userName: 'yeboah326',
         role: 'Back-End Engineer',
     },
@@ -36,7 +40,6 @@ const contributors: GitHubProfileProps[] = [
         role: 'UI/UX designer',
     },
 ];
-
 export const GitHubProfile = (props: GitHubProfileProps) => {
     const [name, setName] = React.useState(undefined);
     const [location, setLocation] = React.useState(undefined);
