@@ -5,7 +5,7 @@ import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import { Testimonial } from './components/testimonial';
 import { JoinUs } from './components/joinUs';
 import { Contact } from './components/contact';
-import { HOme } from './components/home';
+import { Home } from './components/home';
 import { About } from './components/about';
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
                 <Route path="/contributors" component={Contributors}></Route>
                 <Route path="/contact" component={Contact}></Route>
                 <Route path="/about" component={About}></Route>
-                <Route path="/" component={HOme}></Route>
+                <Route path="/" component={Home}></Route>
             </Switch>
         </Router>
     );
