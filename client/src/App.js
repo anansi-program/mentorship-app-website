@@ -22,7 +22,7 @@ function App() {
                             <Link to="/about">About</Link>
                         </li>
                         <li>
-                            <Link to="/Join Us">Contact</Link>
+                            <Link to="/join-us">Join Us</Link>
                         </li>
                         <li>
                             <Link to="/contributors">Contributors</Link>
