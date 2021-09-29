@@ -9,13 +9,13 @@ jobs:
         steps:
             - uses: actions/checkout@v1
             - name: Install Job
-              run: npm i
+              run: cd client && npm i
 
             - name: Test Job
-              run: npm test
+              run: cd client && npm test
 
             - name: Build Job
-              run: npm build
+              run: cd client && npm build
 
             - name: format linter
-              run: npm run prettier
+              run:  cd client && npm run prettier

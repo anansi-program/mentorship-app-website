@@ -4,7 +4,7 @@
 
 1. Install the latest versions of node and npm
 2. [Clone the Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
-3. Run 'npm install' at the root of the cloned project.
+3. Run 'npm install' in the client folder of the cloned project.
 4. Run 'npm start' to pull up the project.
 
 ## Available Scripts
