@@ -1,6 +1,4 @@
 import React from 'react';
-import './App.css';
-import { Contributors } from './components/contributors';
 import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
 import './App.css';
 import { About } from './components/about';
