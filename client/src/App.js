@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import { Contributors } from './components/contributors';
 import { Route, BrowserRouter as Router, Switch, Link } from 'react-router-dom';
-import { Testimonial } from './components/testimonial';
-import { JoinUs } from './components/joinUs';
-import { Contact } from './components/contact';
-import { Home } from './components/home';
+import './App.css';
 import { About } from './components/about';
+import { Contact } from './components/contact';
+import { Contributors } from './components/contributors';
+import { Home } from './components/home';
+import { JoinUs } from './components/joinUs';
+import { Testimonial } from './components/testimonial';
 
 function App() {
     return (
