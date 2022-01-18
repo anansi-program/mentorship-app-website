@@ -5,8 +5,8 @@
     "private": true,
     "dependencies": {},
     "scripts": {
-        "prettier": "./node_modules/.bin/prettier --check .",
         "prettier:format": "prettier --write ./src/**/*.{js,jsx,ts,tsx}",
+        "prettier": "./node_modules/.bin/prettier --check .",
         "dev": "browser-sync start --server --files '*'"
     },
     "browserslist": {
