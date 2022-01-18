@@ -1,0 +1,8 @@
+{
+    "short_name": "Anansi Mentorship Website",
+    "name": "Anansi Mentorship Website",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}

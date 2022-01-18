@@ -1,0 +1,28 @@
+{
+    "name": "mentorship-website",
+    "version": "0.1.0",
+    "main": "dist/scripts.js",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+        "build": "tsc",
+        "prettier": "./node_modules/.bin/prettier --check .",
+        "prettier:format": "prettier --write ./src/**/*.{js,jsx,ts,tsx}",
+        "dev": "browser-sync start --server --files '*'"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "browser-sync": "^2.27.7"
+    }
+}
