@@ -474,8 +474,7 @@ a:hover {
 /*     Header     */
 /******************/
 .header {
-    padding-top: 8rem;
-    padding-bottom: 4em;
+    padding: 8rem 0 4rem;
     background: url("../images/header-background.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
@@ -892,11 +891,6 @@ a:hover {
 /* Min-width 768px */
 @media (min-width: 768px) {
     /* Header */
-    .header {
-        padding-top: 9rem;
-        padding-bottom: 5em;
-    }
-
     .header .h1-large {
         font-size: 3.25rem;
         line-height: 3.75rem;
@@ -1081,16 +1075,6 @@ a:hover {
         margin-left: auto;
     }
     /* end of footer */
-
-    /* Copyright */
-    .copyright {
-        text-align: left;
-    }
-
-    .copyright .statement {
-        text-align: right;
-    }
-    /* end of copyright */
 }
 /* end of min-width 992px */
 
@@ -1103,11 +1087,6 @@ a:hover {
     /* end of general styles */
 
     /* Header */
-    .header {
-        overflow: hidden;
-        padding: 15rem 0;
-    }
-
     .header .text-container {
         margin-top: 0;
     }
@@ -1116,12 +1095,6 @@ a:hover {
         position: relative;
     }
 
-    .header .image-container img {
-        position: absolute;
-        bottom: -520px;
-        left: 60px;
-        max-width: none;
-    }
     /* end of header */
 
     /* Services */
