@@ -1,0 +1,35 @@
+.mainbox {
+    background-color: #0092ff;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.err {
+    color: #ffffff;
+    font-size: 11rem;
+}
+
+.far {
+    font-size: 8.5rem;
+    color: #ffffff;
+}
+
+.msg {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
