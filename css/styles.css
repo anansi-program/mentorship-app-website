@@ -485,7 +485,6 @@ a:hover {
 /******************/
 .header {
     padding: 8rem 0 4rem;
-    background: url("../images/header-background.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
 }
