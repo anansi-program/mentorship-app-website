@@ -48,14 +48,55 @@
 }
 
 .team-image {
-    width: 100%;
-    height: 100%;
+    height: 290px;
 }
 
 .team-section {
     flex: 1;
+    padding-bottom: 2rem;
 }
 
+.team-section h4 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.team-section .social-icons {
+    white-space: nowrap;
+    height: 27px;
+    min-height: 16px;
+    width: 138px;
+    min-width: 94px;
+    margin: 20px auto 0;
+    display: flex;
+    color: #858e99;
+}
+
+.social-icons a {
+    height: 100%;
+    display: inline-block;
+    flex: 1;
+    margin-left: 10px;
+}
+.social-icons .u-icon {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    line-height: 0;
+    border-width: 0px;
+    border-radius: 50%;
+}
+
+.u-svg-content {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+.u-svg-link {
+    fill: currentColor;
+}
 .card {
     margin-bottom: 2rem;
 }
@@ -570,6 +611,33 @@ a:hover {
 /*********************/
 /*     Details 2     */
 /*********************/
+.basic-2 {
+    padding: 6rem 0;
+    text-align: center;
+    background: url("../images/details-2-background.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.basic-2 .card {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+}
+
+.basic-2 .card .icons {
+    width: 60px;
+    margin-bottom: 1.5rem;
+}
+
+.basic-2 h2 {
+    margin-bottom: 1.75rem;
+}
+
+.basic-2 p {
+    margin-bottom: 0;
+}
+
 .team-information {
     padding: 4rem 1rem;
     background: url("../images/details-2-background.jpg") center center no-repeat;
@@ -586,16 +654,23 @@ a:hover {
 }
 
 .team-information p {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
 }
 
 /********************/
-/*     Features     */
+/*     Why Join US     */
 /********************/
 .accordion-1 {
     padding: 4rem 1rem;
     background: url("../images/features-background.jpg") center center no-repeat;
     background-size: cover;
+}
+
+.accordion-1 h4 {
+    color: #ffffff;
+    text-align: center;
 }
 
 .accordion-1 .h2-heading {
@@ -917,7 +992,13 @@ a:hover {
 
     .meet-the-team-section {
         flex-direction: row;
-        max-height: 420px;
+    }
+    .team-section:not(:last-child) {
+        margin-right: 1rem;
+    }
+
+    .team-section {
+        padding-bottom: 0;
     }
 }
 /* end of min-width 768px */
@@ -1046,6 +1127,16 @@ a:hover {
     /* end of details 1 */
 
     /* Details 2 */
+
+    .basic-2 .text-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .basic-2 .card {
+        flex: 1;
+        margin: 0 2rem;
+    }
     .team-information .text-container {
         margin-top: 3rem;
         margin-bottom: 0;
@@ -1135,7 +1226,7 @@ a:hover {
     }
     /* end of details 2 */
 
-    /* Features */
+    /* Why Join Us */
     .accordion-1 .accordion {
         margin-bottom: 0;
     }
@@ -1143,7 +1234,7 @@ a:hover {
     .accordion-1 .image-container {
         text-align: right;
     }
-    /* end of features */
+    /* end of Why Join Us */
 
     /* Testimonials */
     .cards-2 .card {
