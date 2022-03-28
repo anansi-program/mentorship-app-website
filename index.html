@@ -31,6 +31,7 @@
         <link rel="icon" href="images/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" />
         <script src="https://kit.fontawesome.com/15e7553469.js" crossorigin="anonymous"></script>
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -52,7 +53,7 @@
                             <a class="nav-link" href="#details">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#statistics">Statistics</a>
+                            <a class="nav-link" href="#how-it-works">How It Works</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#features">Why Join Us</a>
@@ -63,9 +64,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#team-information">Our Team</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-form">Contact Us</a>
+                        </li>
                     </ul>
+
                     <span class="nav-item">
-                        <a class="btn-solid-sm" href="#contact-form">Contact Us</a>
+                        <a class="btn-solid-sm" href="https://docs.google.com/forms/d/15CPOsN_ipKZZDjerv1bBRyM-NvNLw4X6eWxOViNxQ0c/edit" target="_blank">Join us</a>
                     </span>
                 </div>
             </div>
@@ -114,6 +119,33 @@
             </div>
         </section>
         <div class="wave-container wave-container-second"></div>
+
+        <!-- Details 2 -->
+        <section id="how-it-works" class="basic-2">
+            <div class="container">
+                <h2 class="h2-heading">How it Works</h2>
+                <div class="text-container">
+                    <div class="card">
+                        <img alt="apply-icon" class="icons" src="images/web.png" />
+                        <h4>Apply</h4>
+                        <p>Fill in the forms in the Join Us section, This information helps us understand you better and what you are looking for in a mentor/mentee</p>
+                    </div>
+                    <div class="card">
+                        <img alt="matched-icon" class="icons" src="images/partner.png" />
+                        <h4>Get Matched</h4>
+                        <p> We will look at the information provided and try to match you with a mentor or mentee that matches your profile</p>
+                    </div>
+                    <div class="card">
+                        <img alt="connect-icon" class="icons" src="images/network.png" />
+                        <h4>Connect</h4>
+                        <p>Meet up and connectw ith your mentee/mentor reqgularly using your preferred communication channels</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of container -->
+        </section>
+        <!-- end of basic-2 -->
+        <!-- end of details 2 -->
 
         <section id="statistics" class="cards-1 bg-gray">
             <div class="container">
@@ -172,7 +204,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-5">
+                    <div class="col-xl-6">
+                        <h4 class="target-group" >Mentees</h4>
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <div class="accordion-icon">
@@ -231,10 +264,64 @@
                             </div> -->
                         </div>
                     </div>
-                    <div class="col-xl-7">
-                        <div class="image-container">
-                            <img class="img-fluid" src="images/group-project.png" alt="alternative" />
-                        </div>
+                    <div class="col-xl-6">
+                         <h4 class="target-group" >Mentors</h4>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <div class="accordion-icon">
+                                    <span class="fas fa-tv"></span>
+                                </div>
+
+                                <div class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Expand your network</button>
+                                </div>
+
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Joining our web gives you access to more people</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-icon blue">
+                                    <span class="fas fa-microphone"></span>
+                                </div>
+
+                                <div class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Find opportunities</button>
+                                </div>
+
+                                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Through our connections, we help you recognize career opportunities for your growth</div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-icon purple">
+                                    <span class="fas fa-video"></span>
+                                </div>
+
+                                <div class="accordion-header" id="headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Start your journey with experiencel</button>
+                                </div>
+
+                                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">No need to reinvent the wheel when you have guidance</div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="accordion-item">
+                                <div class="accordion-icon orange">
+                                    <span class="fas fa-tools"></span>
+                                </div>
+
+                                <div class="accordion-header" id="headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Expand our network</button>
+                                </div>
+
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Mauris ornare libero et pharetra hendrerit. Cura elementum lectus quis tellus pretium, vitae lobortis dui sagittis aliquam et enim vel semon anticus</div>
+                                </div>
+                            </div> -->
                     </div>
                 </div>
             </div>
@@ -255,7 +342,10 @@
                                 <div class="mentee-image">
                                     <img src="images/jemila-abdulai.png" alt="alternative" />
                                 </div>
-                                <p class="testimonial-text">This program has assisted me to discover more about the professional world in my field of study. It has encouraged me to plan for a thriving career objectives.</p>
+                                <p class="testimonial-text">
+                                    This program has assisted me to discover more about the professional world in my field of study. I have enjoyed my sessions with my mentor where I have leearnt more about the field and opportunities out there both
+                                    in academia and industry. This has encouraged me to plan for my future.
+                                </p>
                                 <div class="testimonial-author">Jemila Abdulai</div>
                                 <div class="occupation">Student, KNUST</div>
                             </div>
@@ -272,7 +362,7 @@
                                     I have not regretted it since I joined the mentorship programme. My mentor, Selorm Avoke, has been very helpful and has taught me a lot in the software industry and the software engineering job market, especially
                                     that of Ghana and outside of it and the disparities between them.
                                 </p>
-                                <div class="testimonial-author">Emmanuel John Ayarmah</div>
+                                <div class="testimonial-author">Emmanuel Ayarmah</div>
                                 <div class="occupation">Student, KNUST</div>
                             </div>
                             <div class="gradient-floor blue-to-purple"></div>
@@ -285,8 +375,8 @@
                                     <img src="images/alex-osei-bonsu.png" alt="alternative" />
                                 </div>
                                 <p class="testimonial-text">
-                                    This mentorship program has helped me to be more open minded about the other fields of computer engineering I was yet to explore. Thanks to my mentor and the training sessions we had, I’ve seen a whole different
-                                    side of both hardware and software engineering and why it is necessary for me to be open minded
+                                    This program has helped me to be more open about the other fields of computer engineering I was yet to explore. Thanks to my mentor and the training sessions we had, I’ve seen a different side of both hardware and
+                                    software engineering and why it is necessary for me to be open minded
                                 </p>
                                 <div class="testimonial-author">Alexander Osei-Bonsu</div>
                                 <div class="occupation">Student, KNUST</div>
@@ -300,9 +390,9 @@
 
         <section class="call-to-action">
             <div class="container">
-                <h2>Jump Start your career and education</h2>
+                <h2>Join us now and get matched</h2>
                 <!-- <p class="p-large">Eu convallis arcu ultrices in. Mauris ornare libero et pharetra hendrerit. Curabitur elementum lectus quis vioc tellus</p> -->
-                <a class="btn-solid-lg" href="#contact-form">Join us</a>
+                <a class="btn-solid-lg" href="https://docs.google.com/forms/d/15CPOsN_ipKZZDjerv1bBRyM-NvNLw4X6eWxOViNxQ0c/edit" target="_blank">Join us</a>
             </div>
         </section>
 
@@ -315,12 +405,63 @@
                 <div class="meet-the-team-section">
                     <div class="team-section">
                         <img src="images/trudy-adjei.jpg" class="team-image" />
+                        <h4>Ermyntrude Adjei</h4>
+                        <p>
+                            I am a biomedical engineering PhD student at Northwestern University with a keen interest in understanding how brain areas and muscles communicate to facilitate movement. When not doing PhD stuff, I’m mostly on a quest to
+                            bridge the opportunity gap that individuals in developing countries face.
+                        </p>
+                        <div class="social-icons">
+                            <a class="social-url" target="_blank" href="https://www.linkedin.com/in/ermyntrude-adjei-90a204142/">
+                                <span class="u-icon u-icon-circle u-social-linkedin u-social-type-logo u-icon-12"
+                                    ><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"><use xlink:href="#svg-78e1"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content">
+                                        <path
+                                            d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div class="team-section">
                         <img src="images/herman-kumbong.jpg" class="team-image" />
+                        <h4>Hermann Kumbong</h4>
+                        <p>
+                            I am an Engineering Analyst focused on building the next generation of trading systems. Prior to my professional career, I completed a BSc in Computer Engineering from the Kwame Nkrumah University of Science and
+                            Technology. I am particularly interested in mentorship and helping others to achieve their full potential.
+                        </p>
+                        <div class="social-icons">
+                            <a class="social-url" target="_blank" href="https://www.linkedin.com/in/hermannkumbong/">
+                                <span class="u-icon u-icon-circle u-social-linkedin u-social-type-logo u-icon-12"
+                                    ><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"><use xlink:href="#svg-78e1"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content">
+                                        <path
+                                            d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                     <div class="team-section">
                         <img src="images/kofi-twum-ampofo.png" class="team-image" />
+                        <h4>Kofi Twum-Ampofo</h4>
+                        <p>
+                            I am an Engineering Associate working primarily as a Front-End Web Developer and a SIte Reliability Engineering Specialist. I hold a BSc in Computer Engineering from Kwame Nkrumah University of Science and Technology. I am
+                            passionate about creating opportunities for the next generation of engineers.
+                        </p>
+                        <div class="social-icons">
+                            <a class="social-url" target="_blank" href="https://www.linkedin.com/in/kofiapeakorang/">
+                                <span class="u-icon u-icon-circle u-social-linkedin u-social-type-logo u-icon-12"
+                                    ><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" ><use xlink:href="#svg-78e1"></use></svg>
+                                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-78e1" class="u-svg-content">
+                                        <path
+                                            d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"
+                                        ></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -341,12 +482,6 @@
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control-input" placeholder="Email" required name="Email" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control-input" placeholder="University" required name="University" />
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control-input" placeholder="Program" required name="Program" />
                             </div>
                             <div class="form-group">
                                 <textarea type="textArea" class="form-control-input" placeholder="Query" required name="Query"></textarea>
@@ -403,6 +538,7 @@
         <div class="copyright bg-gray">
             <div class="container">
                 <p class="p-small statement">Copyright © <a href="#">Ananse</a></p>
+                <a href="https://www.flaticon.com/free-icons/network" title="network icons">Network icons created by prettycons - Flaticon</a>
             </div>
         </div>
 
