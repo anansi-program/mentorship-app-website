@@ -33,6 +33,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" />
+
+    <link rel="stylesheet" href="css/odometer-theme.css" />
     <script src="https://kit.fontawesome.com/15e7553469.js" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -167,7 +169,7 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="stats-number-count">
-                            <h1>17+</h1>
+                            <h1><span class="number-odometer">17</span>+</h1>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Mentees</h5>
@@ -176,7 +178,7 @@
 
                     <div class="card">
                         <div class="stats-number-count">
-                            <h1>20+</h1>
+                            <h1><span class="number-odometer">20</span>+</h1>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Mentors</h5>
@@ -185,7 +187,7 @@
 
                     <div class="card">
                         <div class="stats-number-count">
-                            <h1>100+</h1>
+                            <h1><span class="number-odometer">100</span>+</h1>
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Hours of Mentorship</h5>
@@ -547,6 +549,35 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/odometer.js"></script>
+    <script>
+
+        const options = {
+            rootMargin: '0px',
+            threshold: 1.0
+        }
+        const setOdometer = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const innerText = entry.target.innerText
+                    const odometer = new Odometer({
+                        el: entry.target
+                    })
+                    odometer.update(innerText)
+                    observer.unobserve(entry.target)
+                }
+            })
+
+        }
+        const observer = new IntersectionObserver(setOdometer, options);
+
+        const numOdometer = document.querySelectorAll("span.number-odometer");
+
+        numOdometer.forEach((node) => {
+            observer.observe(node);
+        })
+
+    </script>
 </body>
 
 </html>
