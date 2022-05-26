@@ -1,17 +1,3 @@
-.coming-soon {
-    width: 100%;
-    height: 100%;
-    background-color: #223150;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: underline;
-}
-
-.coming-soon h1 {
-    color: white;
-}
 /* end of min-width 1200px */
 .wave-container {
     background-color: #ffffff;
