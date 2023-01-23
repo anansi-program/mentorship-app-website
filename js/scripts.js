@@ -7,16 +7,9 @@ window.onscroll = function () {
     scrollFunctionBTT(); // back to top button
 };
 window.onload = function () {
-    redirectToForm();
     scrollFunction();
 };
 
-const redirectToForm = () => {
-    console.log(window.location);
-    if (window.location.pathname === "/mentee")
-        // similar behavior as an HTTP redirect
-        window.location.replace("https://forms.gle/eV5PcsS1XKdEJaNL9");
-};
 function scrollFunction() {
     var navbar = document.getElementById("navbarExample");
     if (navbar) {
