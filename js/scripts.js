@@ -7,7 +7,15 @@ window.onscroll = function () {
     scrollFunctionBTT(); // back to top button
 };
 window.onload = function () {
+    redirectToForm();
     scrollFunction();
+};
+
+const redirectToForm = () => {
+    console.log(window.location);
+    if (window.location.pathname === "/mentee")
+        // similar behavior as an HTTP redirect
+        window.location.replace("https://forms.gle/eV5PcsS1XKdEJaNL9");
 };
 function scrollFunction() {
     var navbar = document.getElementById("navbarExample");
@@ -24,14 +32,18 @@ var elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle)");
 for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener("click", function () {
         var _a;
-        (_a = document.querySelector(".offcanvas-collapse")) === null || _a === void 0 ? void 0 : _a.classList.toggle("open");
+        (_a = document.querySelector(".offcanvas-collapse")) === null || _a === void 0
+            ? void 0
+            : _a.classList.toggle("open");
     });
 }
 (_a = document.querySelector(".navbar-toggler")) === null || _a === void 0
     ? void 0
     : _a.addEventListener("click", function () {
           var _a;
-          (_a = document.querySelector(".offcanvas-collapse")) === null || _a === void 0 ? void 0 : _a.classList.toggle("open");
+          (_a = document.querySelector(".offcanvas-collapse")) === null || _a === void 0
+              ? void 0
+              : _a.classList.toggle("open");
       });
 /* Back To Top Button */
 // Get the button
