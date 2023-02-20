@@ -1,10 +1,10 @@
 /* end of min-width 1200px */
-.wave-container {
+/* .wave-container {
     background-color: #ffffff;
     position: relative;
-}
+} */
 
-.wave-container-first::before {
+/* .wave-container-first::before {
     content: "";
     width: 100%;
     height: 75px;
@@ -15,15 +15,15 @@
     background-repeat: repeat no-repeat;
     background-position: 60vw bottom;
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 120' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 0C22.4434 -1 28.9842 2 55 21C94.1849 49 121.997 51 158.5 52C198.5 54 200 40 240 46C280 53 320 80 360 80C400 80 440 53 480 49C520 44 560 62 600 75C640 89 680 98 720 102C760 107 800 107 840 93C880 80 920 53 960 55C1000 58 1040 89 1080 84C1120 80 1127.5 53 1147.5 33C1171.48 10 1185.65 0 1200 0V120H1180C1160 120 1120 120 1080 120C1040 120 1000 120 960 120C920 120 880 120 840 120C800 120 760 120 720 120C680 120 640 120 600 120C560 120 520 120 480 120C440 120 400 120 360 120C320 120 280 120 240 120C200 120 160 120 120 120C80 120 40 120 20 120H0V0.0103865Z' fill='%236dcafc'/></svg>");
-}
+} */
 
 @media (max-width: 850px) {
-    .wave-container::before {
+    /* .wave-container::before {
         height: 37.5px;
-    }
+    } */
 }
 
-.wave-container-second::before {
+/* .wave-container-second::before {
     content: "";
     width: 100%;
     height: 75px;
@@ -34,7 +34,7 @@
     background-repeat: repeat no-repeat;
     background-position: 60vw bottom;
     background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 109' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 0C22.4434 -1 28.9842 2 55 19C94.1849 44 121.997 47 158.5 47C198.5 49 200 36 240 42C280 48 320 73 360 73C400 73 440 48 480 44C520 40 560 56 600 69C640 81 680 89 720 93C760 97 800 97 840 85C880 73 920 48 960 50C1000 52 1040 81 1080 77C1120 73 1127.5 49 1147.5 30C1171.48 9 1185.65 0 1200 0V109H1180C1160 109 1120 109 1080 109C1040 109 1000 109 960 109C920 109 880 109 840 109C800 109 760 109 720 109C680 109 640 109 600 109C560 109 520 109 480 109C440 109 400 109 360 109C320 109 280 109 240 109C200 109 160 109 120 109C80 109 40 109 20 109H0V0.0103865Z' fill='%23fcfafb'/></svg>");
-}
+} */
 
 /* meet the team section */
 .meet-the-team-section {
@@ -111,6 +111,7 @@ html {
     height: 100%;
 }
 
+/* TODO: font: += "Poppins" family causes text overflow on navbar */
 body,
 p {
     color: #5e6576;
@@ -449,11 +450,13 @@ a:hover {
     visibility: visible;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
+    
 }
 
 .navbar .navbar-nav {
     margin-top: 0.75rem;
     margin-bottom: 0.5rem;
+    
 }
 
 .navbar .nav-item .nav-link {
@@ -973,6 +976,10 @@ a:hover {
 /*************************/
 /*     Media Queries     */
 /*************************/
+
+/* Default media query is for extra 
+small devices with max-width 768px */
+
 /* Min-width 768px */
 @media (min-width: 768px) {
     /* Header */

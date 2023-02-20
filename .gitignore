@@ -9,7 +9,7 @@ node_modules/
 # testing
 /coverage
 
-notes-internal.md
+# notes-internal.md
 
 # misc
 .DS_Store
