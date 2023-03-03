@@ -442,7 +442,7 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #fcfafb;
+    background-color: #fcfafbEF;
     transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -624,22 +624,40 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 /*********************/
 /*     Details 1     */
 /*********************/
-.basic-1 {
+.cards-about {
     padding-top: 2.25rem;
     padding-bottom: 4.75rem;
-    background: #6dcafc;
+    background: #DDEFF4;
+    /* background: linear-gradient(white, yellow), url("images/bg-about-spider.png"); */
     text-align: center;
 }
 
-.basic-1 .image-container {
+/* about image, mobile, default */
+.cards-about .container img[src='images/bg-about.png'] {
+    height: 230px;
+    z-index: 1;
+}
+/* hanging spider, default, mobile */
+.cards-about .container img[src='images/bg-about-spider.png'] {
+    /* top: 000px; */
+    right: 00px;
+    padding-top: 230px;
+    width: 100px;
+    position: absolute;
+    align-content: end;
+    /* z-index: 0; */
+
+}
+
+.cards-about .image-container {
     margin-bottom: 4rem;
 }
 
-.basic-1 h2 {
+.cards-about h2 {
     margin-bottom: 1.75rem;
 }
 
-.basic-1 p {
+.cards-about p {
     margin-bottom: 2rem;
 }
 
@@ -1104,7 +1122,7 @@ small devices with max-width 768px */
     .navbar .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
-         visibility: hidden; /*  */
+         /*visibility: hidden; /* TODO: Ask team: Is this advisable? */
     }
 
     .navbar .nav-item .nav-link {
@@ -1164,14 +1182,22 @@ small devices with max-width 768px */
         margin-right: 2rem;
         margin-left: 2rem;
     }
-    /* end of services */
+    /* end of services */ 
 
     /* Details 1 */
-    .basic-1 .image-container {
+    .cards-about .image-container {
         margin-bottom: 0;
     }
-
-    .basic-1 .text-container {
+    /* about image, desktop */
+    .cards-about .container img[src='images/bg-about.png'] {
+        height: unset;
+    }
+    /* hanging spider, desktop */
+    .cards-about .container img[src='images/bg-about-spider.png'] {
+        padding-top: unset;
+        width: 200px;
+    }
+    .cards-about .text-container {
         margin-top: 2rem;
     }
     /* end of details 1 */
@@ -1259,7 +1285,7 @@ small devices with max-width 768px */
     /* end of services */
 
     /* Details 1 */
-    .basic-1 .text-container {
+    .cards-about .text-container {
         margin-top: 5rem;
         margin-left: 2.75rem;
     }

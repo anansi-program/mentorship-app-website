@@ -11,3 +11,10 @@
 * https://shotstash.com - free stock photos
 * https://angle.sh - beautiful vector device mockups 
 * https://pageflows.com - real design inspo
+
+
+# Misc
+remote: GitHub found 5 vulnerabilities on anansi-program/mentorship-app-website's default branch (2 critical, 2 high, 1 moderate). To find out more, visit:
+remote:      https://github.com/anansi-program/mentorship-app-website/security/dependabot
+remote: 
+To github.com:anansi-program/mentorship-app-website.git
