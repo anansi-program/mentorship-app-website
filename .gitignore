@@ -8,6 +8,7 @@ node_modules/
 
 # testing
 /coverage
+nohup.out
 
 # notes-internal.md
 
