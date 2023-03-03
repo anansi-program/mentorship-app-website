@@ -48,8 +48,8 @@ function scrollFunctionBTT() {
 }
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // for Safari
-    document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    return;
+    // document.body.scrollTop = 0; // for Safari
+    // document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
 }
-
-// Media Query. Replace 
