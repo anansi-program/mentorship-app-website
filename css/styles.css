@@ -740,47 +740,48 @@ div[id="statistics-for-desktop"] {
 }
 
 /********************/
-/*     Why Join US     */
+/*     Join us     */
 /********************/
-.accordion-1 {
+.join-us-section {
     padding: 4rem 1rem;
-    background: url("../images/features-background.jpg") center center no-repeat;
+    background: black;
+    background-image: url("../images/join-us-bg-opportunities.svg") center center repeat;
     background-size: cover;
 }
 
-.accordion-1 h4 {
+.join-us-section h4 {
     color: #ffffff;
     text-align: center;
 }
 
-.accordion-1 .h2-heading {
+.join-us-section .h2-heading {
     margin-bottom: 1rem;
     color: #ffffff;
     text-align: center;
 }
 
-.accordion-1 .p-heading {
+.join-us-section .p-heading {
     margin-bottom: 4rem;
     color: #ffffff;
     text-align: center;
 }
 
-.accordion-1 .accordion {
+.join-us-section .accordion {
     margin-bottom: 5rem;
 }
 
-.accordion-1 .accordion-item {
+.join-us-section .accordion-item {
     margin-bottom: 2.5rem;
     border: none;
     border-radius: 0;
     background-color: transparent;
 }
 
-.accordion-1 .accordion-item:last-of-type {
+.join-us-section .accordion-item:last-of-type {
     margin-bottom: 0;
 }
 
-.accordion-1 .accordion-icon {
+.join-us-section .accordion-icon {
     position: absolute;
     width: 44px;
     height: 44px;
@@ -789,32 +790,32 @@ div[id="statistics-for-desktop"] {
     background-color: #14be9f;
 }
 
-.accordion-1 .accordion-icon.blue {
+.join-us-section .accordion-icon.blue {
     background-color: #1d79fb;
 }
 
-.accordion-1 .accordion-icon.purple {
+.join-us-section .accordion-icon.purple {
     background-color: #dc63ff;
 }
 
-.accordion-1 .accordion-icon.orange {
+.join-us-section .accordion-icon.orange {
     background-color: #ff6c02;
 }
 
-.accordion-1 .accordion-icon .fas {
+.join-us-section .accordion-icon .fas {
     color: #ffffff;
     font-size: 1.25rem;
     line-height: 44px;
 }
 
-.accordion-1 .accordion-header {
+.join-us-section .accordion-header {
     margin-left: 4.125rem;
     padding: 0.5rem 0 0.5rem 0;
     border: none;
     background-color: transparent;
 }
 
-.accordion-1 .accordion-header button {
+.join-us-section .accordion-header button {
     padding: 0;
     border: none;
     background-color: transparent;
@@ -827,11 +828,11 @@ div[id="statistics-for-desktop"] {
     text-align: left;
 }
 
-.accordion-1 .accordion-header button:after {
+.join-us-section .accordion-header button:after {
     display: none;
 }
 
-.accordion-1 .accordion-body {
+.join-us-section .accordion-body {
     margin-left: 4.125rem;
     padding: 0.375rem 0 0 0;
     color: #ffffff;
@@ -1337,11 +1338,11 @@ small devices with max-width 768px */
     /* end of details 2 */
 
     /* Why Join Us */
-    .accordion-1 .accordion {
+    .join-us-section .accordion {
         margin-bottom: 0;
     }
 
-    .accordion-1 .image-container {
+    .join-us-section .image-container {
         text-align: right;
     }
     /* end of Why Join Us */
