@@ -577,19 +577,18 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 180px;
+    height: 250px;
 }
 
 
 .cards-stats .stats-number-count {
     border-radius: 8px;
     text-align: center;
-    border:4px solid white;    
-    border-radius:100%;
+    border:6px solid white;    
+    /* border-radius:100%; */
     -moz-border-radius:100%;
     -webkit-border-radius:100%;
     width:120px;
-
     color: white;
     font-weight: 700;
     font-size: 2.5rem;
@@ -599,6 +598,7 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 
     
 }
+
 
 .cards-stats .card-body {
     padding-top: 10px;
@@ -610,7 +610,7 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     font: 20px "Open Sans", sans-serif;
     margin: 0px 0px 18px;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     line-height: 1.625rem;
     color: white
 }
@@ -635,6 +635,16 @@ div[id="statistics-for-mobile"] {
 
 div[id="statistics-for-desktop"] {
     display: none;
+}
+
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
 }
 
 /*********************/
@@ -1196,6 +1206,7 @@ small devices with max-width 768px */
     /* Services */
     .cards-stats .card {
         width: 286px;
+        height: 345px;
         display: inline-flex;
         text-align: center;
         vertical-align: top;
