@@ -535,6 +535,13 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     padding: 8rem 0 4rem;
     background-size: cover;
     text-align: center;
+ 
+}
+
+#header .container{
+    /* background: url("images/home-vector-bg.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .header .h1-large {
@@ -695,7 +702,7 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 
 .team-information {
     padding: 4rem 1rem;
-    background: url("../images/details-2-background.jpg") center center no-repeat;
+    /* background: url("../images/details-2-background.jpg") center center no-repeat; */
     background-size: cover;
     text-align: center;
 }
