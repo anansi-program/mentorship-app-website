@@ -629,6 +629,14 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/stats-time.png);
 }
 
+div[id="statistics-for-mobile"] {
+    display: unset;
+}
+
+div[id="statistics-for-desktop"] {
+    display: none;
+}
+
 /*********************/
 /*     Details 1     */
 /*********************/
@@ -1063,6 +1071,12 @@ small devices with max-width 768px */
         margin-right: 1.5rem;
         margin-left: 1.5rem;
         vertical-align: top;
+    }
+    div[id="statistics-for-mobile"] {
+        display: none;
+    }
+    div[id="statistics-for-desktop"] {
+        display: flex;
     }
     /* end of statistics */
 

@@ -168,9 +168,19 @@
 
 
     <section id="statistics" class="cards-stats">
-        <div class="container horizontal-scrollable">
-            <div class="row text-center">
-                <div class="col-lg-4">
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">Quick Stats</h2>
+                </div>
+            </div>
+
+            <!-- stats row for Larger screens -->
+            <div class="row align-items-center" id="statistics-for-desktop">
+                <div class="col">
                     <div class="card stats-mentee">
                         <!--dummy flex padding  -->
                         <div class="card-body"> </div>
@@ -182,8 +192,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4">
+                <div class="col">
                     <div class="card stats-mentor">
                         <!--dummy flex padding  -->
                         <div class="card-body"> </div>
@@ -195,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col">
                     <div class="card stats-time">
                         <!--dummy flex padding  -->
                         <div class="card-body"> </div>
@@ -207,20 +216,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-            </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Quick Stats</h2>
-                </div>
-            </div>
-            <!-- Stats Carousel -->
-            <div id="statistics-carousel-mobile" class="carousel slide" data-bs-ride="carousel">
+            <!-- Stats Carousel for Mobile -->
+            <div id="statistics-for-mobile" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="1500">
+                    <div class="carousel-item active" data-bs-interval="2000">
                         <div class="card stats-mentee">
                             <!--dummy flex padding  -->
                             <div class="card-body"> </div>
@@ -232,7 +233,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <div class="card stats-mentor">
                             <!--dummy flex padding  -->
                             <div class="card-body"> </div>
@@ -244,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1500">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <div class="card stats-time">
                             <!--dummy flex padding  -->
                             <div class="card-body"> </div>
@@ -257,7 +258,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#statistics-carousel-mobile"
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#statistics-carousel-mobile"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -266,45 +267,9 @@
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
             </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card stats-mentee">
-                        <!--dummy flex padding  -->
-                        <div class="card-body"> </div>
-                        <div class="stats-number-count">
-                            <div><span class="number-odometer">17</span>+</div>
-                        </div>
-                        <div class="card-body">
-                            <span class="card-title">Mentees</span>
-                        </div>
-                    </div>
-
-                    <div class="card stats-mentor">
-                        <!--dummy flex padding  -->
-                        <div class="card-body"> </div>
-                        <div class="stats-number-count">
-                            <div><span class="number-odometer">20</span>+</div>
-                        </div>
-                        <div class="card-body">
-                            <span class="card-title">Mentors</span>
-                        </div>
-                    </div>
-
-                    <div class="card stats-time">
-                        <!--dummy flex padding  -->
-                        <div class="card-body"> </div>
-                        <div class="stats-number-count">
-                            <div><span class="number-odometer">100</span>+</div>
-                        </div>
-                        <div class="card-body">
-                            <span class="card-title">Hours of Mentorship</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
