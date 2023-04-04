@@ -28,8 +28,10 @@
 
     <title>Ananse Mentorship Programme</title>
     <link rel="icon" href="images/favicon.png" />
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" />
@@ -285,139 +287,128 @@
                     <h2 class="lead h2-heading">Here is what you stand to gain with Ananse Mentorship Programmme</h2>
                 </div>
             </div>
-            <nav aria-label="Mentor/mentee navigation">
-                <ul class="pagination pagination-lg">
-                  <li class="page-item active" aria-current="page">
-                    <span class="page-link">1</span>
-                  </li>
-                  <li class="page-item"><a class="page-link" onclick="alert('llmai')" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                </ul>
-              </nav>
             <div class="row">
-                <div class="col-xl-6">
-                    <h4 class="target-group">Mentees</h4>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <div class="accordion-icon">
-                                <span class="fas fa-tv"></span>
-                            </div>
-
-                            <div class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">Expand your network</button>
-                            </div>
-
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Joining our web gives you access to more people who are
-                                    experienced in your preferred field</div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-icon blue">
-                                <span class="fas fa-microphone"></span>
-                            </div>
-
-                            <div class="accordion-header" id="headingTwo">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Find
-                                    opportunities</button>
-                            </div>
-
-                            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Through our connections, we help you recognize career
-                                    opportunities for your growth</div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-icon purple">
-                                <span class="fas fa-video"></span>
-                            </div>
-
-                            <div class="accordion-header" id="headingThree">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">Start your journey with experience!</button>
-                            </div>
-
-                            <div id="collapseThree" class="accordion-collapse collapse show"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">No need to reinvent the wheel when you have guidance</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <h4 class="target-group">Mentors</h4>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                            <div class="accordion-icon">
-                                <span class="fas fa-tv"></span>
-                            </div>
-
-                            <div class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="true"
-                                    aria-controls="collapseFour">Networking</button>
-                            </div>
-
-                            <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Build connections with the future generation</div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-icon blue">
-                                <span class="fas fa-microphone"></span>
-                            </div>
-
-                            <div class="accordion-header" id="headingTwo">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFive" aria-expanded="false"
-                                    aria-controls="collapseFive">Giving back to the Community</button>
-                            </div>
-
-                            <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">Be the reason for someone’s growth</div>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-icon purple">
-                                <span class="fas fa-video"></span>
-                            </div>
-
-                            <div class="accordion-header" id="headingThree">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSix" aria-expanded="false"
-                                    aria-controls="collapseSix">Reflect on your development</button>
-                            </div>
-
-                            <div id="collapseSix" class="accordion-collapse collapse show"
-                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">By taking a step back to help someone starting out, you can
-                                    reflect on how far you have come and what the future holds for you</div>
-                            </div>
-                        </div>
-
+                <div class="col-12">
+                    <div aria-label="Mentor/mentee navigation">
+                        <ul class="pagination pagination-lg justify-content-center">
+                            <li class="page-item active"><span class="page-link"
+                                    onclick="switch_join_us(this.parentElement, 'mentees');">Mentees</span>
+                            </li>
+                            <li class="page-item"><a class="page-link"
+                                    onclick="switch_join_us(this.parentElement, 'mentors');">Mentors</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
+            <!-- Join us Cards -->
+            <!-- Mentee -->
+            <div class="container">
+                <div class="row justify-items-center" id="join-us-mentees-div">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/cards/joinus-mentee-expand.png" class="card-img-top"
+                                alt="Join as mentee and expand">
+                            <div class="card-body">
+                                <h5 class="card-title">Expand your network</h5>
+                                <p class="card-text">Joining our web gives you access to more people who are experienced
+                                    in
+                                    your
+                                    preferred field.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/cards/joinus-mentee-find.png" class="card-img-top"
+                                alt="Join as mentee and find">
+                            <div class="card-body">
+                                <h5 class="card-title">Find opportunities</h5>
+                                <p class="card-text">Through our connections, we help you recognize career opportunities
+                                    for
+                                    your growth.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/cards/joinus-mentee-start.png" class="card-img-top"
+                                alt="Join as mentee and start">
+                            <div class="card-body">
+                                <h5 class="card-title">Start with experience</h5>
+                                <p class="card-text">No need to reinvent the wheel when you have guidance.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mentors -->
+            <div class="container">
+                <div class="row justify-content-center" id="join-us-mentors-div">
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/cards/joinus-mentee-expand.png" class="card-img-top"
+                                alt="Join as mentee and expand">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/cards/joinus-mentee-find.png" class="card-img-top"
+                                alt="Join as mentee and find">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="images/cards/joinus-mentee-start.png" class="card-img-top"
+                                alt="Join as mentee and start">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- repeating text grid: Networking, Opportunities, Experience -->
+            <div class="container">
+                <div class="image-container">
+                    <img class="img-fluid" src="images/join-us-bg-networking.svg" alt="alternative" />
+                </div>
+            </div>
+
     </section>
 
     <section id="testimonials" class="cards-2 bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Mentee testimonials</h2>
+                    <h2 class="h2-heading">Mentee Stories</h2>
                 </div>
             </div>
             <div class="row">
@@ -508,7 +499,7 @@
                         <p>
                             I am a biomedical engineering PhD student at Northwestern University with a keen
                             interest in understanding how brain areas and muscles communicate to facilitate
-                            movement. When not doing PhD stuff, I’m mostly on a quest to
+                            movement. When not doing PhD stuff, I'm mostly on a quest to
                             bridge the opportunity gap that individuals in developing countries face.
                         </p>
                         <div class="social-icons">
