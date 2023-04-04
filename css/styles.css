@@ -563,6 +563,20 @@ a:hover {
     margin-top: 5rem;
 }
 
+section#section-the-problem .container {
+    /* background-image: url(/images/home-vector-bg.png); */
+    background-size: cover;
+    background-position: -200px 0px;
+    
+}
+
+section#section-the-problem img {
+    margin-top: -200px;
+    max-width: 100%;
+    width: auto;
+    
+}
+
 /********************/
 /*     Statistics     */
 /********************/
@@ -793,8 +807,9 @@ section#join-us .card img {
     object-fit: cover;
 }
 
+/* repeating grid in Join Us */
 section#join-us div.container [id^='joinus-grid-'] {
-    height: 100px;
+    height: 40px;
     background-repeat: repeat-x;
 }
 
@@ -813,9 +828,6 @@ section#join-us div.container [id^='joinus-grid-'] {
     background-position: 300px 0;
 }
 
-section#join-us svg {
-    font-family: 'Arvo';
-}
 
 /*******************************/
 /* It's about time you joined  */
