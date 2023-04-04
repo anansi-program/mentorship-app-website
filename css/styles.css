@@ -59,6 +59,7 @@
 .team-section .accordion-item {
     border: none;
 }
+
 .team-section h4 {
     font-size: 1.5rem;
     margin-top: 20px;
@@ -81,6 +82,7 @@
     flex: 1;
     margin-left: 10px;
 }
+
 .social-icons .u-icon {
     display: flex;
     height: 100%;
@@ -95,6 +97,7 @@
     height: 0;
     overflow: hidden;
 }
+
 .u-svg-link {
     fill: currentColor;
 }
@@ -185,6 +188,7 @@ h6 {
 .mentee-image {
     padding-bottom: 1rem;
 }
+
 .mentee-image img {
     width: 60%;
 }
@@ -264,9 +268,11 @@ a:hover {
     text-decoration: none;
     transition: all 0.2s;
 }
-.text-container .btn-solid-lg{
-box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
+
+.text-container .btn-solid-lg {
+    box-shadow: 5px 5px 18px 0px rgba(0, 0, 0, 0.45);
 }
+
 .btn-solid-lg:hover {
     background-color: transparent;
     color: #0092ff;
@@ -373,7 +379,8 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 
 .form-control-input:focus {
     border: 1px solid #a1a1a1;
-    outline: none; /* Removes blue border on focus */
+    outline: none;
+    /* Removes blue border on focus */
 }
 
 .form-control-input:hover,
@@ -432,7 +439,8 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 
 .offcanvas-collapse {
     position: fixed;
-    top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
+    top: 3.25rem;
+    /* adjusts the height between the top of the page and the offcanvas menu */
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -450,13 +458,13 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     visibility: visible;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
-    
+
 }
 
 .navbar .navbar-nav {
     margin-top: 0.75rem;
     margin-bottom: 0.5rem;
-    
+
 }
 
 .navbar .nav-item .nav-link {
@@ -475,7 +483,8 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
-    animation: fadeDropdown 0.2s; /* required for the fade animation */
+    animation: fadeDropdown 0.2s;
+    /* required for the fade animation */
 }
 
 @keyframes fadeDropdown {
@@ -517,6 +526,7 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     border: none;
     background-color: #d1d1d1;
 }
+
 /* end of dropdown menu */
 
 .navbar .navbar-toggler {
@@ -532,10 +542,10 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
     padding: 8rem 0 4rem;
     background-size: cover;
     text-align: center;
- 
+
 }
 
-#header .container{
+#header .container {
     /* background: url("images/home-vector-bg.png"); */
     background-repeat: no-repeat;
     background-size: contain;
@@ -582,19 +592,19 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 .cards-stats .stats-number-count {
     border-radius: 8px;
     text-align: center;
-    border:6px solid white;    
+    border: 6px solid white;
     /* border-radius:100%; */
-    -moz-border-radius:100%;
-    -webkit-border-radius:100%;
-    width:120px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    width: 120px;
     color: white;
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.25rem;
     letter-spacing: -0.4px;
-    
 
-    
+
+
 }
 
 
@@ -618,13 +628,15 @@ box-shadow: 5px 5px 18px 0px rgba(0,0,0, 0.45);
 }
 
 .cards-stats .stats-mentee {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/stats-mentee.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/stats-mentee.png);
 }
+
 .cards-stats .stats-mentor {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/stats-mentor.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/stats-mentor.png);
 }
+
 .cards-stats .stats-time {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/stats-time.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/stats-time.png);
 }
 
 div[id="statistics-for-mobile"] {
@@ -661,6 +673,7 @@ div[id="statistics-for-desktop"] {
     height: 230px;
     z-index: 1;
 }
+
 /* hanging spider, default, mobile */
 .cards-about .container img[src='images/bg-about-spider.png'] {
     /* top: 000px; */
@@ -743,7 +756,6 @@ div[id="statistics-for-desktop"] {
 .join-us-section {
     padding: 4rem 1rem;
     background: black;
-    background-image: url("../images/join-us-bg-opportunities.svg") center center repeat;
     background-size: cover;
 }
 
@@ -763,6 +775,7 @@ div[id="statistics-for-desktop"] {
     color: #ffffff;
     text-align: center;
 }
+
 section#join-us .row[id^='join-us-'] {
     display: inline-block;
 }
@@ -772,7 +785,6 @@ section#join-us .card {
     width: 450px;
     height: unset;
     margin-bottom: 2rem
-    
 }
 
 section#join-us .card img {
@@ -781,13 +793,38 @@ section#join-us .card img {
     object-fit: cover;
 }
 
+section#join-us div.container [id^='joinus-grid-'] {
+    height: 100px;
+    background-repeat: repeat-x;
+}
+
+#joinus-grid-networking {
+    background: url("/images/join-us-bg-networking.svg");
+    background-position: 100px 0;
+}
+
+#joinus-grid-experience {
+    background: url("/images/join-us-bg-experience.svg");
+    background-position: 200px 0;
+}
+
+#joinus-grid-opportunities {
+    background: url("/images/join-us-bg-opportunities.svg");
+    background-position: 300px 0;
+}
+
+section#join-us svg {
+    font-family: 'Arvo';
+}
+
 /*******************************/
 /* It's about time you joined  */
 /*******************************/
-.abouttime .image-container{
+.abouttime .image-container {
     background-repeat: repeat-x;
 }
-.abouttime .container{
+
+.abouttime .container {
     background-color: black;
 }
 
@@ -1012,11 +1049,13 @@ small devices with max-width 768px */
 
 /* Min-width 768px */
 @media (min-width: 768px) {
+
     /* Header */
     .header .h1-large {
         font-size: 3.25rem;
         line-height: 3.75rem;
     }
+
     /* end of header */
 
     /* Statistics */
@@ -1026,27 +1065,33 @@ small devices with max-width 768px */
         margin-left: 1.5rem;
         vertical-align: top;
     }
+
     div[id="statistics-for-mobile"] {
         display: none;
     }
+
     div[id="statistics-for-desktop"] {
         display: flex;
     }
+
     /* end of statistics */
 
     /* Join us */
     section#join-us .row[id^='join-us-'] {
         display: flex;
     }
+
     section#join-us .card {
         width: unset;
         height: 100%
     }
+
     /* end of Join us */
 
     .meet-the-team-section {
         flex-direction: row;
     }
+
     .team-section:not(:last-child) {
         margin-right: 1rem;
     }
@@ -1055,10 +1100,12 @@ small devices with max-width 768px */
         padding-bottom: 0;
     }
 }
+
 /* end of min-width 768px */
 
 /* Min-width 992px */
 @media (min-width: 992px) {
+
     /* General Styles */
     .h2-heading {
         width: 35.25rem;
@@ -1071,6 +1118,7 @@ small devices with max-width 768px */
         margin-right: auto;
         margin-left: auto;
     }
+
     /* end of general styles */
 
     /* Navigation */
@@ -1109,7 +1157,7 @@ small devices with max-width 768px */
     .navbar .navbar-nav {
         margin-top: 0;
         margin-bottom: 0;
-         /*visibility: hidden; /* TODO: Ask team: Is this advisable? */
+        /*visibility: hidden; /* TODO: Ask team: Is this advisable? */
     }
 
     .navbar .nav-item .nav-link {
@@ -1131,6 +1179,7 @@ small devices with max-width 768px */
         margin-top: 0;
         margin-left: 1rem;
     }
+
     /* end of navigation */
 
     /* Header */
@@ -1155,6 +1204,7 @@ small devices with max-width 768px */
     .header .btn-solid-lg {
         margin-right: 0.5rem;
     }
+
     /* end of header */
 
     /* Services */
@@ -1170,24 +1220,29 @@ small devices with max-width 768px */
         margin-right: 2rem;
         margin-left: 2rem;
     }
-    /* end of services */ 
+
+    /* end of services */
 
     /* Details 1 */
     .cards-about .image-container {
         margin-bottom: 0;
     }
+
     /* about image, desktop */
     .cards-about .container img[src='images/bg-about.png'] {
         height: unset;
     }
+
     /* hanging spider, desktop */
     .cards-about .container img[src='images/bg-about-spider.png'] {
         padding-top: unset;
         width: 200px;
     }
+
     .cards-about .text-container {
         margin-top: 2rem;
     }
+
     /* end of details 1 */
 
     /* Details 2 */
@@ -1201,10 +1256,12 @@ small devices with max-width 768px */
         flex: 1;
         margin: 0 2rem;
     }
+
     .team-information .text-container {
         margin-top: 3rem;
         margin-bottom: 0;
     }
+
     /* end of details 2 */
 
     /* Testimonials */
@@ -1213,12 +1270,13 @@ small devices with max-width 768px */
         width: 298px;
         vertical-align: top;
     }
-    
+
 
     .cards-2 .card:nth-of-type(3n + 2) {
         margin-right: 1rem;
         margin-left: 1rem;
     }
+
     /* end of testimonials */
 
 
@@ -1233,6 +1291,7 @@ small devices with max-width 768px */
         margin-right: auto;
         margin-left: auto;
     }
+
     /* end of invitation */
 
     /* Footer */
@@ -1241,8 +1300,10 @@ small devices with max-width 768px */
         margin-right: auto;
         margin-left: auto;
     }
+
     /* end of footer */
 }
+
 /* end of min-width 992px */
 
 /* Min-width 1200px */
@@ -1255,6 +1316,7 @@ small devices with max-width 768px */
     #testimonials {
         padding-top: 4rem;
     }
+
     /* end of general styles */
 
     .header .image-container {
@@ -1272,6 +1334,7 @@ small devices with max-width 768px */
         margin-right: 5.5rem;
         margin-left: 5.5rem;
     }
+
     /* end of services */
 
     /* Details 1 */
@@ -1279,6 +1342,7 @@ small devices with max-width 768px */
         margin-top: 5rem;
         margin-left: 2.75rem;
     }
+
     /* end of details 1 */
 
     /* Details 2 */
@@ -1290,10 +1354,11 @@ small devices with max-width 768px */
     .team-information .image-container {
         text-align: right;
     }
+
     /* end of details 2 */
 
     /* Why Join Us */
- 
+
     /* end of Why Join Us */
 
     /* Testimonials */
@@ -1305,6 +1370,7 @@ small devices with max-width 768px */
         margin-right: 1.125rem;
         margin-left: 1.125rem;
     }
+
     /* end of testimonials */
 
     /* Contact */
@@ -1316,11 +1382,13 @@ small devices with max-width 768px */
     .form-1 form {
         margin-left: 2.75rem;
     }
+
     /* end of contact-form */
 
     /* Footer */
     .footer .decoration-circles {
         left: 0;
     }
+
     /* end of footer */
 }
