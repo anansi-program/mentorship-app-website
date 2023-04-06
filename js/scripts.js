@@ -78,9 +78,9 @@ function switch_join_us(pageElement, cardType) {
 
 
     if (cardType == 'mentees') {
-        document.getElementById("join-us-" + cardType + "-div").style.display = 'flex';
+        document.getElementById("join-us-" + cardType + "-div").style.display = '';
     }
     else if (cardType == 'mentors') {
-        document.getElementById("join-us-" + cardType + "-div").style.display = 'flex';
+        document.getElementById("join-us-" + cardType + "-div").style.display = '';
     }
 }

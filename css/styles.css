@@ -563,17 +563,18 @@ a:hover {
     margin-top: 5rem;
 }
 
+
 section#section-the-problem .container {
-    /* background-image: url(/images/home-vector-bg.png); */
     background-size: cover;
     background-position: -200px 0px;
     
 }
-
+/* wave just above "Problem we want to solve" */
 section#section-the-problem img {
-    margin-top: -200px;
-    max-width: 100%;
-    width: auto;
+    margin-top: -300px;
+    width: -webkit-fill-available;
+    max-height: 280px;
+    max-width: 1140px;
     
 }
 
@@ -790,13 +791,13 @@ div[id="statistics-for-desktop"] {
     text-align: center;
 }
 
-section#join-us .row[id^='join-us-'] {
+/* section#join-us .row[id^='join-us-'] {
     display: inline-block;
-}
+} */
 
 section#join-us .card {
     /* margin: 5px 5px; */
-    width: 450px;
+    width: unset;
     height: unset;
     margin-bottom: 2rem
 }
