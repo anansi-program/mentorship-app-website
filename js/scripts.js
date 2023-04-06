@@ -5,7 +5,12 @@ var _a;
 
 // On DOM Loaded:
 addEventListener("DOMContentLoaded", (event) => {
-    switch_join_us("none", 'mentees');
+    // if homepage, run to show only one of mentor/mentee paginations
+    if (window.location.href.includes("index.html") ||
+        window.location.href.includes("anansegroup.org") ||
+        document.location.pathname == "/") {
+        switch_join_us("none", 'mentees');
+    }
 });
 
 
@@ -15,7 +20,7 @@ window.onscroll = function () {
 };
 window.onload = function () {
     scrollFunction();
-    
+
 };
 function scrollFunction() {
     var navbar = document.getElementById("navbarExample");
