@@ -743,6 +743,7 @@ div[id="statistics-for-desktop"] {
     background-size: cover;
 }
 
+
 .join-us-section h4 {
     color: #ffffff;
     text-align: center;
@@ -799,10 +800,24 @@ section#join-us [id^='joinus-grid-'] {
 }
 
 /* Mentor/Mentee pagination */
-section#join-us div ul.pagination{
-    
+section#join-us div .page-item {
+    min-width: 35%;
+    text-align: center;
 }
 
+section#join-us div .page-item .page-link{
+    border-color: white;
+    border-width: medium;
+    background-color: black;
+    color: white;
+}
+section#join-us div .page-item.active .page-link{
+    background-color: #DDEFF4;
+    color: black;
+    
+    
+}
+/* end of mentor/mentee pagination */
 
 
 /*******************************/
@@ -1345,9 +1360,7 @@ small devices with max-width 768px */
 
     /* end of details 2 */
 
-    /* Why Join Us */
 
-    /* end of Why Join Us */
 
     /* Testimonials */
     .cards-2 .card {
