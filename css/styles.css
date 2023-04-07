@@ -536,15 +536,16 @@ a:hover {
 section#section-the-problem .container {
     background-size: cover;
     background-position: -200px 0px;
-    
+
 }
+
 /* wave just above "Problem we want to solve" */
 section#section-the-problem img {
     margin-top: -300px;
     width: -webkit-fill-available;
     max-height: 280px;
     max-width: 1140px;
-    
+
 }
 
 /********************/
@@ -683,6 +684,7 @@ div[id="statistics-for-desktop"] {
     padding: 0 15px;
 }
 
+
 /*********************/
 /*     Details 2     */
 /*********************/
@@ -778,6 +780,31 @@ section#join-us .card img {
     object-fit: cover;
 }
 
+/* Small text just before pagination */
+section#join-us .container .row .col-12 p {
+    color: white;
+    text-align: center
+}
+/* Mentor/Mentee pagination */
+section#join-us div .page-item {
+    min-width: 35%;
+    text-align: center;
+}
+
+section#join-us div .page-item .page-link {
+    border-color: white;
+    border-width: medium;
+    background-color: black;
+    color: white;
+}
+
+section#join-us div .page-item.active .page-link {
+    background-color: #DDEFF4;
+    color: black;
+}
+
+/* end of mentor/mentee pagination */
+
 /* repeating grid in Join Us */
 
 #joinus-grid-networking {
@@ -794,45 +821,16 @@ section#join-us .card img {
     background: url("/images/join-us-bg-opportunities.svg");
     background-position: 300px 0;
 }
+
 section#join-us [id^='joinus-grid-'] {
     height: 40px;
     background-repeat: repeat-x;
 }
 
-/* Mentor/Mentee pagination */
-section#join-us div .page-item {
-    min-width: 35%;
-    text-align: center;
-}
-
-section#join-us div .page-item .page-link{
-    border-color: white;
-    border-width: medium;
-    background-color: black;
-    color: white;
-}
-section#join-us div .page-item.active .page-link{
-    background-color: #DDEFF4;
-    color: black;
-    
-    
-}
-/* end of mentor/mentee pagination */
-
-
-/*******************************/
-/* It's about time you joined  */
-/*******************************/
-.abouttime .image-container {
-    background-repeat: repeat-x;
-}
-
-.abouttime .container {
-    background-color: black;
-}
 
 /************************/
 /*     Testimonials     */
+/*   (Mentee stories)   */
 /************************/
 .cards-2 {
     padding-top: 2.5rem;
