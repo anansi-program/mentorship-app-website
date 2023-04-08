@@ -41,8 +41,8 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbarExample">
-    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+<body data-bs-spy="scroll" data-bs-target="#navbar-about">
+    <nav id="navbar-about" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
         <div class="container">
             <a class="navbar-brand logo-image" href="index.html"><img src="images/favicon.png" alt="alternative" /></a>
 
@@ -84,26 +84,86 @@
         </div>
     </nav>
 
+    <!-- About page central card with logo -->
     <header id="header-about" class="header">
+
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12" style="z-index: 2; width: 100%; height: 200px; background-color: #00708B;"></div>
+            <!-- first violet row -->
+            <div class="row" style="background-color: #00708B;">
+                <div class="col-sm-12"></div>
             </div>
-            <div class="row">
-                <div class="col-sm-12" style="width: 100%; height: 200px; background-position-y: -150px; background-size: cover; background-repeat: no-repeat; background-image: url('/images/home-vector-bg.png');">
-                    
+            <!-- second row with bg vector and card-->
+            <div class="container">
+                <div class="row" style="background-image: url('/images/home-vector-bg.png');">
+                    <div class="col-sm-12">
+                        <div class="card text-center mx-auto">
+                            <img src="images/favicon.png" class="card-img-top mx-auto" alt="Join as mentee and expand">
+                            <div class="card-body">
+                                <p class="card-title display-5 fw-bold">Ananse</p>
+                                <p class="card-text display-6">Mentorship Programme</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="copyright bg-gray">
-        <div class="container">
-            <p class="p-small statement">Copyright © <a href="#">Ananse</a></p>
-            <a href="https://www.flaticon.com/free-icons/network" title="network icons">Network icons created by
-                prettycons - Flaticon</a>
+
+    <section id="section-footer">
+        <footer class="bd-footer py-5 mt-5 bg-light">
+            <div class="container py-5">
+                <div class="row">
+
+                    <div class="col-lg-8">
+                        <div class="row" id="footer-logo-name">
+                            <div class="col">
+                                <!-- Logo and Ananse -->
+                                <a class="d-inline-flex align-items-center mb-2 link-light text-decoration-none"
+                                    href="/" aria-label="Ananse Mentorship Program Logo">
+                                    <img src="images/logo-white.png" alt="Ananse logo" />
+                                    <span class="fs-3 fw-bold">Ananse</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <!-- <span class="fs-5"> (C) Copyright 2023 </span> -->
+                                <p class="p-small link-light">This space is for address</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Socials -->
+                    <div class="col-lg-4" id="footer-socials">
+                        <div class="row">
+                            <div class="col">
+                                <a href="https://facebook.com/ananse">
+                                    <img src="/images/icons/facebook.png"></a>
+                            </div>
+                            <div class="col">
+                                <a href="https://twitter.com/ananse">
+                                    <img src="/images/icons/twitter.png"></a>
+                            </div>
+                            <div class="col">
+                                <a href="https://linkedin.com/ananse">
+                                    <img src="/images/icons/linkedin.png"></a>
+                            </div>
+                            <div class="col">
+                                <a href="https://instagram.com/ananse">
+                                    <img src="/images/icons/instagram.png"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="copyright bg-gray">
+            <div class="container">
+                <p class="p-small statement">Copyright © <a href="#">Ananse</a></p>
+                <a href="https://www.flaticon.com/free-icons/network" title="network icons">Network icons created by
+                    prettycons - Flaticon</a>
+            </div>
         </div>
-    </div>
+    </section>
 
     <button onclick="topFunction()" id="myBtn">
         <img src="images/up-arrow.png" alt="alternative" />
