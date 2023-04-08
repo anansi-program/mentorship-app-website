@@ -252,7 +252,7 @@ a:hover {
     display: inline-block;
     padding: 1rem 1.5rem 1rem 1.5rem;
     border: 1px solid #0092ff;
-    border-radius: 30px;
+    border-radius: px;
     background-color: #0092ff;
     color: #ffffff;
     font-weight: 600;
@@ -395,9 +395,23 @@ a:hover {
 
 }
 
+/* #navbar-about .nav-link{
+    color: white;
+} */
+
+#navbar-about .btn-solid-sm {
+    background-color: white;
+    color: #5e6576;
+    border-color: white;
+}
+
 .navbar .navbar-brand {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+}
+
+.navbar .btn-solid-sm {
+    border-radius: 5px;
 }
 
 .navbar .logo-image img {
@@ -433,6 +447,7 @@ a:hover {
     visibility: visible;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
+    background-color: #00708BDD;
 
 }
 
@@ -454,6 +469,12 @@ a:hover {
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
     color: #0092ff;
+}
+
+#navbar-about .nav-item.dropdown.show .nav-link,
+#navbar-about .nav-item .nav-link:hover,
+#navbar-about .nav-item .nav-link.active {
+    color: white;
 }
 
 /* Dropdown Menu */
@@ -533,7 +554,7 @@ a:hover {
 
 #header-about .container .row {
     height: 300px;
-    background-position-y: top;
+    background-position-y: -70px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -591,6 +612,10 @@ section#section-the-problem img {
     max-height: 280px;
     max-width: 1140px;
 
+}
+
+section#section-about-program p {
+    text-align: justify;
 }
 
 
@@ -809,18 +834,21 @@ div[id="statistics-for-desktop"] {
     text-align: center;
 }
 
-/* section#join-us .row[id^='join-us-'] {
-    display: inline-block;
-} */
+section#join-us .container[id^='join-us-'],
+section#section-about-team .row {
+    padding-bottom: 10px;
+}
 
-section#join-us .card {
+section#join-us .card,
+section#section-about-team .card {
     /* margin: 5px 5px; */
     width: unset;
     height: unset;
     margin-bottom: 2rem
 }
 
-section#join-us .card img {
+section#join-us .card img,
+section#section-about-team .card img {
     /* width: 300px; */
     height: 300px;
     object-fit: cover;
@@ -1095,7 +1123,7 @@ small devices with max-width 768px */
     }
 
     #header-about .container .row {
-        background-position-y: bottom;
+        background-position-y: -250px;
     }
 
     /* end of header */
@@ -1123,9 +1151,11 @@ small devices with max-width 768px */
         display: flex;
     }
 
-    section#join-us .card {
+    section#join-us .card,
+    section#section-about-team .card {
         width: unset;
         height: 100%;
+        margin-bottom: unset;
     }
 
     /* end of Join us */

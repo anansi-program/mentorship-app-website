@@ -42,39 +42,29 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar-about">
-    <nav id="navbar-about" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+    <nav id="navbar-about" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <div class="container">
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/favicon.png" alt="alternative" /></a>
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo-white.png"
+                    alt="alternative" /></a>
 
-            <a class="navbar-brand logo-text" href="index.html">Ananse</a>
+            <a class="navbar-brand logo-text text-light" href="index.html">Ananse</a>
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ms-auto navbar-nav-scroll" style="
-                overflow-y: visible;">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll" style="overflow-y: visible;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
+                        <a class="nav-link active" aria-label="Go to homepage" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#details">About</a>
+                        <a class="nav-link active" aria-current="page" href="#section-about-program">About Program</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-the-problem">How It Works</a>
+                        <a class="nav-link" href="#section-about-team">The Team</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#join-us">Why Join Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team-information">Our Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-form">Contact Us</a>
-                    </li>
+
+
                 </ul>
 
                 <span class="nav-item">
@@ -108,6 +98,122 @@
             </div>
         </div>
     </header>
+
+    <!-- ABOUT program -->
+    <section id="section-about-program">
+
+        <h2 class="h2-heading text-center">About Ananse</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p>Welcome to Ananse! We're a group of alumni from the computer and biomedical engineering
+                        department at
+                        Kwame Nkrumah University of Science and Technology in Ghana. When we graduated and started our
+                        careers, we realized that there were a ton of opportunities we didn't know about. We wished we
+                        had
+                        someone to guide us and show us the ropes.</p>
+                    <p>That's why we started the mentorship program. We pair up students (mentees) with experienced
+                        professionals (mentors) who can offer guidance, share their experiences, and help students
+                        achieve
+                        their career goals. So far, we've helped many students take the next step in their careers, and
+                        we're excited to keep growing and expanding.</p>
+                    <p>Our goal is to make the transition from education to employment as smooth as possible for
+                        everyone.
+                        We believe that mentorship is the key to unlocking your potential and achieving your dreams.
+                        Join us
+                        today and let's take the next step together!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT TEAM -->
+    <section id="section-about-team">
+        <div class="container">
+            <h2 class="h2-heading text-center">Meet the Team</h2>
+            <div class="row justify-items-center">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/people/trudy-adjei.jpg" class="card-img-top" alt="Join as mentee and expand">
+                        <div class="card-body">
+                            <h5 class="card-title">Ermyntrude (Trudy) Adjei</h5>
+                            <p class="card-text">I am a biomedical engineering PhD student at Northwestern University
+                                with a keen interest in understanding how brain areas and muscles communicate to
+                                facilitate movement. When not doing PhD stuff, I'm mostly on a quest to bridge the
+                                opportunity gap that individuals in developing countries face.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/people/kofi-twum-ampofo.png" class="card-img-top"
+                            alt="Join as mentee and find">
+                        <div class="card-body">
+                            <h5 class="card-title">Kofi Twum-Ampofo</h5>
+                            <p class="card-text">I am an Engineering Associate working primarily as a Front-End Web
+                                Developer and a SIte Reliability Engineering Specialist. I hold a BSc in Computer
+                                Engineering from Kwame Nkrumah University of Science and Technology. I am passionate
+                                about creating opportunities for the next generation of engineers.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/people/christian-gyampomah.jpg" class="card-img-top"
+                            alt="Join as mentee and start">
+                        <div class="card-body">
+                            <h5 class="card-title">Christian Adumatta Gyampomah</h5>
+                            <p class="card-text">I am a Masters student at the Technical University of Munich, Germany.
+                                I currently works as a communications engineer for a radar systems manufacturer. I want
+                                to make lives bettter.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- TODO: add padding bottom to cards -->
+            <div class="row justify-items-center">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/people/.png" class="card-img-top" alt="Join as mentee and expand">
+                        <div class="card-body">
+                            <h5 class="card-title">Benedict</h5>
+                            <p class="card-text">Benedict bio</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/people/gilgal-justice-ansah.jpg" class="card-img-top"
+                            alt="Join as mentee and find">
+                        <div class="card-body">
+                            <h5 class="card-title">Gilgal</h5>
+                            <p class="card-text">PhD student at the University of Pittsburgh.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/people/.png" class="card-img-top" alt="Join as mentee and start">
+                        <div class="card-body">
+                            <h5 class="card-title">Bernard</h5>
+                            <p class="card-text">Cool stuff about Bernard.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 
 
     <section id="section-footer">
