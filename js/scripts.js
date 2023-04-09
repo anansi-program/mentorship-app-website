@@ -48,16 +48,15 @@ for (var i = 0; i < elements.length; i++) {
     });
 /* Back To Top Button */
 // Get the button
-var myButton = document.getElementById("myBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 function scrollFunctionBTT() {
-    if (myButton) {
+    
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            myButton.style.display = "block";
+            document.getElementById("back-to-top-Btn").style.display = "block";
         } else {
-            myButton.style.display = "none";
+            document.getElementById("back-to-top-Btn").style.display = "none";
         }
-    }
+    
 }
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {

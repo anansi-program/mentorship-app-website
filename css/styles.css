@@ -207,9 +207,9 @@ a:hover {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #229FBF; /* previous color: 0092ff */
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #229FBF; /* previous color: 0092ff */
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -227,9 +227,9 @@ a:hover {
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #229FBF; /* previous color: 0092ff */
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #229FBF; /* previous color: 0092ff */
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -244,16 +244,16 @@ a:hover {
 
 .btn-solid-lg:hover {
     background-color: transparent;
-    color: #0092ff;
+    color: #229FBF; /* previous color: 0092ff */
     text-decoration: none;
 }
 
 .btn-solid-sm {
     display: inline-block;
     padding: 1rem 1.5rem 1rem 1.5rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #229FBF; /* previous color: 0092ff */;
     border-radius: px;
-    background-color: #0092ff;
+    background-color: #229FBF; /* previous color: 0092ff */;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -264,7 +264,7 @@ a:hover {
 
 .btn-solid-sm:hover {
     background-color: transparent;
-    color: #0092ff;
+    color: #229FBF; /* previous color: 0092ff */;
     text-decoration: none;
 }
 
@@ -361,9 +361,9 @@ a:hover {
     display: inline-block;
     width: 100%;
     height: 3.25rem;
-    border: 1px solid #0092ff;
+    border: 1px solid #229FBF; /* previous color: 0092ff */;
     border-radius: 30px;
-    background-color: #0092ff;
+    background-color: #229FBF; /* previous color: 0092ff */;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -373,9 +373,14 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-    border: 1px solid #0092ff;
+    border: 1px solid #229FBF; /* previous color: 0092ff */;
     background-color: transparent;
-    color: #0092ff;
+    color: #229FBF; /* previous color: 0092ff */;
+}
+
+/* Themes for future. */
+.ananse-dark{
+background-color: #00708BDD!important;
 }
 
 /**********************/
@@ -390,16 +395,16 @@ a:hover {
 }
 
 /* Navbar on About page */
-#navbar-about {
+#navbar-ananse-dark {
     background-color: #00708B;
 
 }
 
-/* #navbar-about .nav-link{
+/* #navbar-ananse-dark .nav-link{
     color: white;
 } */
 
-#navbar-about .btn-solid-sm {
+#navbar-ananse-dark .btn-solid-sm {
     background-color: white;
     color: #5e6576;
     border-color: white;
@@ -447,7 +452,6 @@ a:hover {
     visibility: visible;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
-    background-color: #00708BDD;
 
 }
 
@@ -468,12 +472,12 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-    color: #0092ff;
+    color: #229FBF; /* previous color: 0092ff */;
 }
 
-#navbar-about .nav-item.dropdown.show .nav-link,
-#navbar-about .nav-item .nav-link:hover,
-#navbar-about .nav-item .nav-link.active {
+#navbar-ananse-dark .nav-item.dropdown.show .nav-link,
+#navbar-ananse-dark .nav-item .nav-link:hover,
+#navbar-ananse-dark .nav-item .nav-link.active {
     color: white;
 }
 
@@ -974,10 +978,9 @@ section#join-us [id^='joinus-grid-'] {
 /**********************/
 .call-to-action {
     text-align: center;
-    padding: 4rem 0;
-    margin: 0 2rem;
+    margin-bottom: 10px;
     border-radius: 28px;
-    background: url("../images/invitation-background.jpg") center center no-repeat;
+    background-color: #DDEFF4;
     background-size: cover;
 }
 
@@ -1071,7 +1074,7 @@ section#join-us [id^='joinus-grid-'] {
 /******************************/
 /*     Back To Top Button     */
 /******************************/
-#myBtn {
+#back-to-top-Btn {
     position: fixed;
     z-index: 99;
     bottom: 20px;
@@ -1086,11 +1089,11 @@ section#join-us [id^='joinus-grid-'] {
     cursor: pointer;
 }
 
-#myBtn:hover {
+#back-to-top-Btn:hover {
     background-color: #1d1d21;
 }
 
-#myBtn img {
+#back-to-top-Btn img {
     margin-bottom: 0.25rem;
     width: 18px;
 }
