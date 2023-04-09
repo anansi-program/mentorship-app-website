@@ -154,6 +154,11 @@ h6 {
     line-height: 1.75rem;
 }
 
+section {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
 .mentee-image {
     padding-bottom: 1rem;
 }
@@ -207,9 +212,11 @@ a:hover {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #229FBF; /* previous color: 0092ff */
+    border: 1px solid #229FBF;
+    /* previous color: 0092ff */
     border-radius: 30px;
-    background-color: #229FBF; /* previous color: 0092ff */
+    background-color: #229FBF;
+    /* previous color: 0092ff */
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -227,9 +234,11 @@ a:hover {
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-    border: 1px solid #229FBF; /* previous color: 0092ff */
-    border-radius: 30px;
-    background-color: #229FBF; /* previous color: 0092ff */
+    border: 1px solid #229FBF;
+    /* previous color: 0092ff */
+    border-radius: 10px;
+    background-color: #229FBF;
+    /* previous color: 0092ff */
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -244,16 +253,21 @@ a:hover {
 
 .btn-solid-lg:hover {
     background-color: transparent;
-    color: #229FBF; /* previous color: 0092ff */
+    color: #229FBF;
+    /* previous color: 0092ff */
     text-decoration: none;
 }
 
 .btn-solid-sm {
     display: inline-block;
     padding: 1rem 1.5rem 1rem 1.5rem;
-    border: 1px solid #229FBF; /* previous color: 0092ff */;
+    border: 1px solid #229FBF;
+    /* previous color: 0092ff */
+    ;
     border-radius: px;
-    background-color: #229FBF; /* previous color: 0092ff */;
+    background-color: #229FBF;
+    /* previous color: 0092ff */
+    ;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -264,7 +278,9 @@ a:hover {
 
 .btn-solid-sm:hover {
     background-color: transparent;
-    color: #229FBF; /* previous color: 0092ff */;
+    color: #229FBF;
+    /* previous color: 0092ff */
+    ;
     text-decoration: none;
 }
 
@@ -361,9 +377,13 @@ a:hover {
     display: inline-block;
     width: 100%;
     height: 3.25rem;
-    border: 1px solid #229FBF; /* previous color: 0092ff */;
-    border-radius: 30px;
-    background-color: #229FBF; /* previous color: 0092ff */;
+    border: 1px solid #229FBF;
+    /* previous color: 0092ff */
+    ;
+    border-radius: 15px;
+    background-color: #229FBF;
+    /* previous color: 0092ff */
+    ;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -373,14 +393,19 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-    border: 1px solid #229FBF; /* previous color: 0092ff */;
+    border: 1px solid #229FBF;
+    /* previous color: 0092ff */
+    ;
     background-color: transparent;
-    color: #229FBF; /* previous color: 0092ff */;
+    color: #229FBF;
+    /* previous color: 0092ff */
+    ;
 }
 
 /* Themes for future. */
-.ananse-dark{
-background-color: #00708BDD!important;
+.ananse-dark {
+    background-color: #00708BDD !important;
+    color: #a19a89;
 }
 
 /**********************/
@@ -469,16 +494,23 @@ background-color: #00708BDD!important;
     transition: all 0.2s ease;
 }
 
+.navbar .ananse-dark .nav-item .nav-link {
+    color: #a19a89;
+}
+
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-    color: #229FBF; /* previous color: 0092ff */;
+    color: #229FBF;
+    /* previous color: 0092ff */
+    ;
 }
 
 #navbar-ananse-dark .nav-item.dropdown.show .nav-link,
 #navbar-ananse-dark .nav-item .nav-link:hover,
 #navbar-ananse-dark .nav-item .nav-link.active {
     color: white;
+    text-decoration: underline;
 }
 
 /* Dropdown Menu */
@@ -627,14 +659,18 @@ section#section-about-program p {
 /*     Statistics     */
 /********************/
 .cards-stats {
-    padding: 2.5rem 0;
     text-align: center;
     background: url("../images/bg-stats.jpg") center center no-repeat;
     background-size: cover;
 }
 
+.ananse-bg-bubbles {
+    background: url("../images/bg-bubbles.jpg") center center no-repeat;
+    background-size: cover;
+}
+
 .cards-stats h2 {
-    margin-bottom: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 .cards-stats .card {
@@ -721,8 +757,6 @@ div[id="statistics-for-desktop"] {
 /*     Details 1     */
 /*********************/
 .cards-about {
-    padding-top: 2.25rem;
-    padding-bottom: 4.75rem;
     background: #DDEFF4;
     /* background: linear-gradient(white, yellow), url("images/bg-about-spider.png"); */
     text-align: center;
@@ -764,7 +798,6 @@ div[id="statistics-for-desktop"] {
 /*     Details 2     */
 /*********************/
 .basic-2 {
-    padding: 6rem 0;
     text-align: center;
     /* background: url("../images/details-2-background.jpg") center center no-repeat; */
     background-size: cover;
@@ -791,7 +824,6 @@ div[id="statistics-for-desktop"] {
 }
 
 .team-information {
-    padding: 4rem 1rem;
     /* background: url("../images/details-2-background.jpg") center center no-repeat; */
     background-size: cover;
     text-align: center;
@@ -815,7 +847,6 @@ div[id="statistics-for-desktop"] {
 /*     Join us     */
 /********************/
 .join-us-section {
-    padding: 4rem 1rem;
     background: black;
     background-size: cover;
 }
@@ -838,12 +869,15 @@ div[id="statistics-for-desktop"] {
     text-align: center;
 }
 
-section#join-us .container[id^='join-us-'],
+/* section#section-join-us{
+    padding-top: 1rem;
+} */
+section#section-join-us .container[id^='join-us-'],
 section#section-about-team .row {
     padding-bottom: 10px;
 }
 
-section#join-us .card,
+section#section-join-us .card,
 section#section-about-team .card {
     /* margin: 5px 5px; */
     width: unset;
@@ -851,7 +885,7 @@ section#section-about-team .card {
     margin-bottom: 2rem
 }
 
-section#join-us .card img,
+section#section-join-us .card img,
 section#section-about-team .card img {
     /* width: 300px; */
     height: 300px;
@@ -859,25 +893,25 @@ section#section-about-team .card img {
 }
 
 /* Small text just before pagination */
-section#join-us .container .row .col-12 p {
+section#section-join-us .container .row .col-12 p {
     color: white;
     text-align: center
 }
 
 /* Mentor/Mentee pagination */
-section#join-us div .page-item {
+section#section-join-us div .page-item {
     min-width: 35%;
     text-align: center;
 }
 
-section#join-us div .page-item .page-link {
+section#section-join-us div .page-item .page-link {
     border-color: white;
     border-width: medium;
     background-color: black;
     color: white;
 }
 
-section#join-us div .page-item.active .page-link {
+section#section-join-us div .page-item.active .page-link {
     background-color: #DDEFF4;
     color: black;
 }
@@ -901,7 +935,7 @@ section#join-us div .page-item.active .page-link {
     background-position: 300px 0;
 }
 
-section#join-us [id^='joinus-grid-'] {
+section#section-join-us [id^='joinus-grid-'] {
     height: 40px;
     background-repeat: repeat-x;
 }
@@ -976,33 +1010,14 @@ section#join-us [id^='joinus-grid-'] {
 /**********************/
 /*     Invitation     */
 /**********************/
-.call-to-action {
-    text-align: center;
-    margin-bottom: 10px;
-    border-radius: 28px;
+#section-invitation {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+#section-invitation .card {
     background-color: #DDEFF4;
-    background-size: cover;
-}
-
-.call-to-action h2 {
-    margin-bottom: 1rem;
-    color: #ffffff;
-}
-
-.call-to-action .p-large {
-    margin-bottom: 2.75rem;
-    color: #ffffff;
-}
-
-.call-to-action .btn-solid-lg {
-    border-color: #16c66d;
-    background-color: #16c66d;
-}
-
-.call-to-action .btn-solid-lg:hover {
-    border-color: #ffffff;
-    background-color: transparent;
-    color: #ffffff;
+    border-radius: 20px;
 }
 
 /*******************/
@@ -1046,7 +1061,6 @@ section#join-us [id^='joinus-grid-'] {
     height: 35px
 }
 
-/* #section-footer div.container.py-5 {} */
 
 /************************/
 /*     Testimonials     */
@@ -1150,11 +1164,11 @@ small devices with max-width 768px */
     /* end of statistics */
 
     /* Join us */
-    section#join-us .row[id^='join-us-'] {
+    section#section-join-us .row[id^='join-us-'] {
         display: flex;
     }
 
-    section#join-us .card,
+    section#section-join-us .card,
     section#section-about-team .card {
         width: unset;
         height: 100%;
@@ -1298,7 +1312,7 @@ small devices with max-width 768px */
 
     /* end of services */
 
-    /* Details 1 */
+    /* About Program cards */
     .cards-about .image-container {
         margin-bottom: 0;
     }
@@ -1355,20 +1369,6 @@ small devices with max-width 768px */
     /* end of testimonials */
 
 
-    .call-to-action h2 {
-        width: 42rem;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .call-to-action .p-large {
-        width: 35rem;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    /* end of invitation */
-
     /* Footer */
     .footer h4 {
         width: 46rem;
@@ -1413,10 +1413,10 @@ small devices with max-width 768px */
     /* end of services */
 
     /* Details 1 */
-    .cards-about .text-container {
+    /* .cards-about .text-container {
         margin-top: 5rem;
         margin-left: 2.75rem;
-    }
+    } */
 
     /* end of details 1 */
 

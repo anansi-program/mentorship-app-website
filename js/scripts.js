@@ -70,13 +70,13 @@ function topFunction() {
 function switch_join_us(pageElement, cardType) {
     // handle paginator
     if (pageElement != "none") {
-        document.querySelectorAll("section#join-us li.page-item").forEach((elem) => {
+        document.querySelectorAll("section#section-join-us li.page-item").forEach((elem) => {
             elem.classList.remove('active');
         });
         pageElement.classList.add('active');
     }
     // handle card row
-    document.querySelectorAll("section#join-us  [id^='join-us-']").forEach((join_us_row) => {
+    document.querySelectorAll("section#section-join-us  [id^='join-us-']").forEach((join_us_row) => {
         join_us_row.style.display = 'none';
     });
 
