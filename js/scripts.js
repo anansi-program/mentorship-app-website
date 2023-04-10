@@ -4,14 +4,9 @@ var _a;
 // Collapse the navbar by adding the top-nav-collapse class
 
 // On DOM Loaded:
-addEventListener("DOMContentLoaded", (event) => {
-    // if homepage, run to show only one of mentor/mentee paginations
-    if (window.location.href.includes("index.html") ||
-        window.location.href.includes("anansegroup.org") ||
-        document.location.pathname == "/") {
-        switch_join_us("none", 'mentees');
-    }
-});
+/* addEventListener("DOMContentLoaded", (event) => {
+
+}); */
 
 
 window.onscroll = function () {
@@ -50,13 +45,13 @@ for (var i = 0; i < elements.length; i++) {
 // Get the button
 // When the user scrolls down 20px from the top of the document, show the button
 function scrollFunctionBTT() {
-    
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("back-to-top-Btn").style.display = "block";
-        } else {
-            document.getElementById("back-to-top-Btn").style.display = "none";
-        }
-    
+
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top-Btn").style.display = "block";
+    } else {
+        document.getElementById("back-to-top-Btn").style.display = "none";
+    }
+
 }
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
@@ -75,16 +70,12 @@ function switch_join_us(pageElement, cardType) {
         });
         pageElement.classList.add('active');
     }
+
     // handle card row
     document.querySelectorAll("section#section-join-us  [id^='join-us-']").forEach((join_us_row) => {
-        join_us_row.style.display = 'none';
+
+        join_us_row.classList.remove('active');
     });
+    document.getElementById("join-us-" + cardType + "-div").classList.add('active');
 
-
-    if (cardType == 'mentees') {
-        document.getElementById("join-us-" + cardType + "-div").style.display = '';
-    }
-    else if (cardType == 'mentors') {
-        document.getElementById("join-us-" + cardType + "-div").style.display = '';
-    }
 }

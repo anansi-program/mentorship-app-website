@@ -60,17 +60,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#section-details">About</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#section-the-problem">How It Works</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#section-join-us">Why Join Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#team-information">Our Team</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-faq">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-form">Contact Us</a>
@@ -257,11 +260,11 @@
                 <div class="col-12">
                     <div aria-label="Mentor/mentee navigation">
                         <ul class="pagination pagination-lg justify-content-center">
-                            <li class="page-item active"><span class="page-link"
-                                    onclick="switch_join_us(this.parentElement, 'mentees');">Mentees</span>
+                            <li class="page-item active"><a class="page-link" href="#"
+                                    onclick="switch_join_us(this.parentElement, 'mentees'); return false;">Mentees</a>
                             </li>
-                            <li class="page-item"><a class="page-link"
-                                    onclick="switch_join_us(this.parentElement, 'mentors');">Mentors</a>
+                            <li class="page-item"><a class="page-link" href="#"
+                                    onclick="switch_join_us(this.parentElement, 'mentors'); return false;">Mentors</a>
                             </li>
                         </ul>
                     </div>
@@ -270,18 +273,18 @@
         </div>
         <!-- Join us Cards -->
         <!-- Mentee -->
-        <div class="container" id="join-us-mentees-div">
+        <div class="container active" id="join-us-mentees-div">
             <div class="row justify-items-center">
                 <div class="col-lg-4">
                     <div class="card">
                         <img src="images/cards/joinus-mentee-left.png" class="card-img-top"
                             alt="Join as mentee and expand">
                         <div class="card-body">
-                            <h5 class="card-title">Expand your network</h5>
-                            <p class="card-text">Joining our web gives you access to more people who are experienced
-                                in
-                                your
-                                preferred field.</p>
+                            <h5 class="card-title">Expand Your Career Horizons</h5>
+                            <p class="card-text">As a mentee, you can connect with experienced professionals in your
+                                field who can help you navigate your career path. Our mentors come from a variety of
+                                backgrounds (industry/academia), so you're sure to find someone who can provide valuable
+                                insights and help you explore new possibilities.</p>
                         </div>
                     </div>
                 </div>
@@ -292,11 +295,11 @@
                         <img src="images/cards/joinus-mentee-middle.png" class="card-img-top"
                             alt="Join as mentee and find">
                         <div class="card-body">
-                            <h5 class="card-title">Find opportunities</h5>
-                            <p class="card-text">Through our connections, we help you recognize career
-                                opportunities
-                                for
-                                your growth.</p>
+                            <h5 class="card-title">Build Your Professional Network</h5>
+                            <p class="card-text">The connections you make through our mentorship program can be
+                                invaluable as you pursue your career goals. Mentors can introduce you to other
+                                professionals in your industry, offer recommendations or referrals, and even serve as
+                                references when you're applying for jobs or seeking new opportunities.</p>
 
                         </div>
                     </div>
@@ -304,10 +307,13 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <img src="images/cards/joinus-mentee-right.png" class="card-img-top"
-                            alt="Join as mentee and start">
+                            alt="Join as mentee and start" title="Photo by Taha Mazandarani on Unsplash">
                         <div class="card-body">
-                            <h5 class="card-title">Start with experience</h5>
-                            <p class="card-text">No need to reinvent the wheel when you have guidance.</p>
+                            <h5 class="card-title">Develop Personalized Skills</h5>
+                            <p class="card-text">Our mentorship program is tailored to your unique needs and goals.
+                                Whether you're looking to hone your technical skills, build your confidence, or develop
+                                your leadership abilities, your mentor can help you create a personalized plan for
+                                growth and offer support and guidance every step of the way.</p>
 
                         </div>
                     </div>
@@ -322,11 +328,28 @@
                 <div class="col-lg-4">
                     <div class="card">
                         <img src="images/cards/joinus-mentor-left.png" class="card-img-top"
-                            alt="Join as mentee and expand">
+                            alt="Join as mentee and start">
                         <div class="card-body">
-                            <h5 class="card-title">Mentor T 1</h5>
-                            <p class="card-text">Mentors lorem ipsum some dopamine stuff about mentors. woohoo join.
-                                Mentors lorem ipsum some dopamine stuff about mentors. woohoo join.
+                            <h5 class="card-title">Expand your network</h5>
+                            <p class="card-text">Through the mentorship program, you will have the opportunity to
+                                connect with other professionals in your field. This can lead to new career
+                                opportunities, collaborations, and partnerships.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="images/cards/joinus-mentor-middle.png" class="card-img-top"
+                            alt="Join as mentee and expand" title="Photo by Vonecia Carswell on Unsplash">
+                        <div class="card-body">
+                            <h5 class="card-title">Make a Difference and Give Back</h5>
+                            <p class="card-text">As a mentor, you have the power to make a positive impact on the lives
+                                of aspiring students. By sharing your experiences, skills, and knowledge, you can help
+                                shape the future of these students and set them on a path towards success. This is also
+                                an opportunity to give back to the community and support the next generation of
+                                professionals. Mentoring is a fulfilling way to use your expertise and experience to
+                                help others achieve their goals and dreams.
                             </p>
 
                         </div>
@@ -334,29 +357,22 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card">
-                        <img src="images/cards/joinus-mentor-middle.png" class="card-img-top"
+                        <img src="images/cards/joinus-mentor-right.png" class="card-img-top"
                             alt="Join as mentee and find">
                         <div class="card-body">
-                            <h5 class="card-title">Mentor T 2</h5>
-                            <p class="card-text">Mentors lorem ipsum some dopamine stuff about mentors. woohoo join.
-                                Mentors lorem ipsum some dopamine stuff about mentors. woohoo join.</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-                        <img src="images/cards/joinus-mentor-right.png" class="card-img-top"
-                            alt="Join as mentee and start">
-                        <div class="card-body">
-                            <h5 class="card-title">Mentor T 3</h5>
-                            <p class="card-text">Mentors lorem ipsum some dopamine stuff about mentors. woohoo join.
-                                Mentors lorem ipsum some dopamine stuff about mentors. woohoo join.</p>
-
+                            <h5 class="card-title">Build your leadership skills</h5>
+                            <p class="card-text">Mentoring is a great way to build your leadership skills. As a mentor,
+                                you will be responsible for guiding and supporting your mentee, which requires a strong
+                                sense of leadership and direction.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mx-auto" style="text-align: center; padding: 10px 0px; max-width: 50%;">
+            <!-- <a class="btn-solid-lg" href="/why-join-us.html">Read More</a> -->
+            <a class="page-link" href="/why-join-us.html">Read More</a>
         </div>
         <br>
         <!-- repeating text grid: Networking, Opportunities, Experience -->
@@ -465,7 +481,7 @@
         </div>
     </section>
 
-    <section id="team-information" class="team-information">
+    <!-- <section id="team-information" class="team-information">
         <div class="container">
             <div>
                 <h2 class="h2-heading">Meet The Team</h2>
@@ -565,34 +581,139 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section id="contact-form" class="form-1">
+    </section> -->
+    <section id="section-faq">
+        <h2 class="h2-heading" style="text-align: center;">Frequently Asked Questions</h2>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="text-container">
-                        <h2>Contact Us</h2>
-                        <p>Reach out to us with any questions on how to join the program either as a mentor or mentee.
+                <div class="col-lg-12">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-question-One" aria-expanded="false"
+                                    aria-controls="faq-question-One">
+                                    How do I become a mentor?
+                                </button>
+                            </h2>
+                            <div id="faq-question-One" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">To become a mentor, kindly complete this form (include
+                                    hyperlink to the form) including your expertise as well as career experience. This
+                                    will help us match you with the right mentee who will benefit from your guidance!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-question-Two" aria-expanded="false"
+                                    aria-controls="faq-question-Two">
+                                    Do I need some kind of training to become a mentor?
+                                </button>
+                            </h2>
+                            <div id="faq-question-Two" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">No formal mentor training program is required.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-question-Three" aria-expanded="false"
+                                    aria-controls="faq-question-Three">
+                                    What kind of commitment is required of mentors and mentees?
+                                </button>
+                            </h2>
+                            <div id="faq-question-Three" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Mentors and mentees are expected to commit to regular
+                                    check-in meetings for a duration of 6-12 months, with a minimum of one hour per
+                                    month. Additionally, mentors and mentees are required to complete a separate
+                                    check-in form after every meeting. This ensures that both parties are actively
+                                    engaged and making progress.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-question-Four" aria-expanded="false"
+                                    aria-controls="faq-question-Four">
+                                    How are the mentorship meetings structured?
+                                </button>
+                            </h2>
+                            <div id="faq-question-Four" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The structure of each mentorship meeting is entirely up to
+                                    the mentor/mentee pair and is not supervised. This allows for a personalized
+                                    approach to the mentorship experience, as each pair can tailor their meetings to fit
+                                    their specific needs and goals. However, we do require mentors and mentees to
+                                    complete a separate check-in form after every meeting. This gives us an idea about
+                                    the progress of the mentorship and helps us ensure that both parties are staying on
+                                    track and making meaningful strides towards the career development of the mentee.
+                                    This process helps us to identify any potential challenges or areas where additional
+                                    support may be needed.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-question-Five" aria-expanded="false"
+                                    aria-controls="faq-question-Five">
+                                    What kind of impact has the program had on past participants?
+                                </button>
+                            </h2>
+                            <div id="faq-question-Five" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Read some of our mentees' <a
+                                        href="/#testimonials">testimonials</a>.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-form" class="form-contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container text-center">
+                        <h2>Message Us</h2>
+                        <!-- <p>Reach out to us with any questions on how to join the program either as a mentor or mentee. -->
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <form data-netlify="true" name="Ananse Contact Form" method="POST">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" placeholder="Name" required name="Name" />
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col" id="ananse-contact-form">
+                        <form data-netlify="true" name="Ananse Contact Form" method="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" placeholder="Name" required name="Name" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control-input" placeholder="Your Email" required
+                                    name="Email" />
+                            </div>
+                            <div class="form-group">
+                                <textarea type="textArea" class="form-control-input" placeholder="Your Message" required
+                                    name="Query"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- desktop image on right of form -->
+                    <div class="col" id="ananse-contact-form-img">
+                        <div class="image-container align-self-center">
+                            <img src="images/logo-white.png">
                         </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" placeholder="Email" required name="Email" />
-                        </div>
-                        <div class="form-group">
-                            <textarea type="textArea" class="form-control-input" placeholder="Query" required
-                                name="Query"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Submit</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     </section>

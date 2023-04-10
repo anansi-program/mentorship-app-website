@@ -213,10 +213,8 @@ a:hover {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
     border: 1px solid #229FBF;
-    /* previous color: 0092ff */
     border-radius: 30px;
     background-color: #229FBF;
-    /* previous color: 0092ff */
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -235,10 +233,8 @@ a:hover {
     display: inline-block;
     padding: 1.625rem 2.625rem 1.625rem 2.625rem;
     border: 1px solid #229FBF;
-    /* previous color: 0092ff */
     border-radius: 10px;
     background-color: #229FBF;
-    /* previous color: 0092ff */
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -254,7 +250,6 @@ a:hover {
 .btn-solid-lg:hover {
     background-color: transparent;
     color: #229FBF;
-    /* previous color: 0092ff */
     text-decoration: none;
 }
 
@@ -262,11 +257,9 @@ a:hover {
     display: inline-block;
     padding: 1rem 1.5rem 1rem 1.5rem;
     border: 1px solid #229FBF;
-    /* previous color: 0092ff */
     ;
     border-radius: px;
     background-color: #229FBF;
-    /* previous color: 0092ff */
     ;
     color: #ffffff;
     font-weight: 600;
@@ -279,7 +272,6 @@ a:hover {
 .btn-solid-sm:hover {
     background-color: transparent;
     color: #229FBF;
-    /* previous color: 0092ff */
     ;
     text-decoration: none;
 }
@@ -351,26 +343,26 @@ a:hover {
 
 .form-control-input {
     width: 100%;
-    padding-top: 0.875rem;
-    padding-bottom: 0.875rem;
-    padding-left: 1.5rem;
-    border: 1px solid #cbcbd1;
-    border-radius: 8px;
+    transition: all 0.1s linear;
+    padding-top: 0.2rem;
+    padding-bottom: 1.5rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-radius: 0px;
     background-color: #ffffff;
     font-size: 0.875rem;
     line-height: 1.5rem;
     -webkit-appearance: none;
 }
 
-.form-control-input:focus {
-    border: 1px solid #a1a1a1;
-    outline: none;
-    /* Removes blue border on focus */
-}
-
 .form-control-input:hover,
 .form-control-textarea:hover {
-    border: 1px solid #a1a1a1;
+    border-bottom: 2px solid #229FBF;
+}
+.form-control-input:focus,
+.form-control-textarea:focus {
+    outline: 0.5px solid grey;
 }
 
 .form-control-submit-button {
@@ -378,11 +370,9 @@ a:hover {
     width: 100%;
     height: 3.25rem;
     border: 1px solid #229FBF;
-    /* previous color: 0092ff */
     ;
     border-radius: 15px;
     background-color: #229FBF;
-    /* previous color: 0092ff */
     ;
     color: #ffffff;
     font-weight: 600;
@@ -394,11 +384,9 @@ a:hover {
 
 .form-control-submit-button:hover {
     border: 1px solid #229FBF;
-    /* previous color: 0092ff */
     ;
     background-color: transparent;
     color: #229FBF;
-    /* previous color: 0092ff */
     ;
 }
 
@@ -502,7 +490,6 @@ a:hover {
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
     color: #229FBF;
-    /* previous color: 0092ff */
     ;
 }
 
@@ -615,8 +602,6 @@ a:hover {
 }
 
 #header .container {
-    /* background: url("images/home-vector-bg.png"); */
-
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -648,6 +633,10 @@ section#section-the-problem img {
     max-height: 280px;
     max-width: 1140px;
 
+}
+
+section#section-about-program {
+    margin-top: -6rem;
 }
 
 section#section-about-program p {
@@ -869,9 +858,7 @@ div[id="statistics-for-desktop"] {
     text-align: center;
 }
 
-/* section#section-join-us{
-    padding-top: 1rem;
-} */
+
 section#section-join-us .container[id^='join-us-'],
 section#section-about-team .row {
     padding-bottom: 10px;
@@ -890,6 +877,7 @@ section#section-about-team .card img {
     /* width: 300px; */
     height: 300px;
     object-fit: cover;
+    object-position: top;
 }
 
 /* Small text just before pagination */
@@ -904,11 +892,23 @@ section#section-join-us div .page-item {
     text-align: center;
 }
 
-section#section-join-us div .page-item .page-link {
+.card .card-body .card-text {
+    text-align: justify;
+}
+
+section#section-join-us div .page-link {
     border-color: white;
     border-width: medium;
     background-color: black;
     color: white;
+}
+
+section#section-join-us [id^='join-us-'] {
+    display: none;
+}
+
+section#section-join-us [id^='join-us-'].active {
+    display: block;
 }
 
 section#section-join-us div .page-item.active .page-link {
@@ -1020,19 +1020,69 @@ section#section-join-us [id^='joinus-grid-'] {
     border-radius: 20px;
 }
 
+
+/*******************/
+/*       FAQ       */
+/*******************/
+#section-faq>.container {
+    padding-top: 1.25rem;
+}
+
+/*******************/
+/*        x        */
+/*******************/
+
+
 /*******************/
 /*     Contact     */
 /*******************/
-.form-1 {
-    padding: 3rem 0;
-    text-align: center;
+
+/* this workaround maintains top spacing while making the navbar anchor
+scroll-to positions work properly */
+#contact-form {
+    padding-top: 6rem;
+    margin-top: -4rem;
 }
 
-.form-1 .text-container {
+#contact-form .card {
+    margin: 0 10px;
+    border-color: none;
+    box-shadow: 0 4px 20px -1px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form .col {
+    padding: 1rem 2rem;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#ananse-contact-form-img img {
+    max-width: 200px;
+    aspect-ratio: calc(200/185);
+    /* dimensions of favicon */
+}
+
+#ananse-contact-form-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("/images/bg/bg-contact-form.png");
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: none;
+    /*only show on larger screens */
+}
+
+/* .form-contact {
+    padding: 3rem 0;
+    text-align: center;
+} */
+
+.form-contact .text-container {
     margin-bottom: 4rem;
 }
 
-.form-1 h2 {
+.form-contact h2 {
     margin-bottom: 1.75rem;
 }
 
@@ -1368,6 +1418,18 @@ small devices with max-width 768px */
 
     /* end of testimonials */
 
+    /* Contact form */
+    #ananse-contact-form-img {
+        display: block;
+
+    }
+
+    #contact-form .col:last-child {
+        display: flex;
+
+    }
+
+    /* end of contact form */
 
     /* Footer */
     .footer h4 {
@@ -1447,14 +1509,11 @@ small devices with max-width 768px */
     /* end of testimonials */
 
     /* Contact */
-    .form-1 .text-container {
+    .form-contact .text-container {
         margin-top: 1.5rem;
         margin-right: 2.75rem;
     }
 
-    .form-1 form {
-        margin-left: 2.75rem;
-    }
 
     /* end of contact-form */
 
