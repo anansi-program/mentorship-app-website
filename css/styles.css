@@ -561,6 +561,19 @@ a:hover {
     background-size: cover;
     text-align: center;
 }
+/* Large banners for info pages */
+.ananse-header-lg{
+    background-color: #00708B;
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+}
+.ananse-header-lg h2,
+.ananse-header-lg p{
+    color: white!important;
+}
+.ananse-header-lg .row{
+align-content: center!important;
+}
 
 /* Container after header on About page */
 #header-about .container {
@@ -1326,7 +1339,7 @@ small devices with max-width 768px */
         text-align: left;
     }
 
-    .header .text-container {
+    #header .text-container {
         margin-top: 4rem;
     }
 
