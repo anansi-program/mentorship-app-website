@@ -40,7 +40,6 @@ I don’t think the core values section is necessary.
 Why join us?
 
 
-Welcome to Ananse, where we believe in the power of mentorship to unlock limitless possibilities for career growth and development. Here are a few reasons why you should consider joining our mentorship program:
 
 # As a mentee
 

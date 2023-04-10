@@ -360,6 +360,7 @@ a:hover {
 .form-control-textarea:hover {
     border-bottom: 2px solid #229FBF;
 }
+
 .form-control-input:focus,
 .form-control-textarea:focus {
     outline: 0.5px solid grey;
@@ -479,11 +480,12 @@ a:hover {
     padding-bottom: 0.625rem;
     color: #5e6576;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: all 0.2s linear;
 }
 
 .navbar .ananse-dark .nav-item .nav-link {
-    color: #a19a89;
+    /* color: #a19a89; */
+    color: #e0e0e0;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
@@ -561,18 +563,22 @@ a:hover {
     background-size: cover;
     text-align: center;
 }
+
 /* Large banners for info pages */
-.ananse-header-lg{
+.ananse-header-lg {
     background-color: #00708B;
     padding-top: 6rem;
     margin-bottom: 6rem;
 }
+
 .ananse-header-lg h2,
-.ananse-header-lg p{
-    color: white!important;
+.ananse-header-lg p {
+    color: white !important;
 }
-.ananse-header-lg .row{
-align-content: center!important;
+
+.ananse-header-lg .row {
+    align-content: center !important;
+    height: 300px;
 }
 
 /* Container after header on About page */
