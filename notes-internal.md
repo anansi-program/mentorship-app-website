@@ -27,24 +27,6 @@ When you sign up to become a mentor, we will pair you with a mentee (an undergra
 
 # FAQ
 
-How do I become a mentor?
-To become a mentor, kindly complete this form (include hyperlink to the form) including your expertise as well as career experience. This will help us match you with the right mentee who will benefit from your guidance!
-
-
-Do I need some kind of training to become a mentor?
-No formal mentor training program is required. 
-
-
-What kind of commitment is required of mentors and mentees?
-Mentors and mentees are expected to commit to regular check-in meetings for a duration of 6-12 months, with a minimum of one hour per month. Additionally, mentors and mentees are required to complete a separate check-in form after every meeting. This ensures that both parties are actively engaged and making progress
-
-
-How are the mentorship meetings structured?
-The structure of each mentorship meeting is entirely up to the mentor/mentee pair and is not supervised. This allows for a personalized approach to the mentorship experience, as each pair can tailor their meetings to fit their specific needs and goals. However, we do require mentors and mentees to complete a separate check-in form after every meeting. This gives us an idea about the progress of the mentorship and helps us ensure that both parties are staying on track and making meaningful strides towards the career development of the mentee. This process helps us to identify any potential challenges or areas where additional support may be needed.
-
-
-What kind of impact has the program had on past participants?
-(Refer to testimonials)
 
 
 
