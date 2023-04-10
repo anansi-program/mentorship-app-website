@@ -47,13 +47,6 @@ What kind of impact has the program had on past participants?
 
 
 
-About Ananse
-
-##
-
-
-
-
 
 
 
