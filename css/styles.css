@@ -1025,13 +1025,27 @@ section#section-join-us [id^='joinus-grid-'] {
 .cards-2 .card .gradient-floor.purple-to-green {
     background: linear-gradient(to right, #637eff, #16c66d);
 }
+.mentor-card-group{
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+.mentor-card{
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 1.5rem;
+    height: 100%;
+    margin-bottom: 0.75rem;
+}
+.mentor-card img {
+    padding: 5px;
+    border-radius: 1.5rem;
+}
 
 /**********************/
 /*     Invitation     */
 /**********************/
 #section-invitation {
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 #section-invitation .card {
