@@ -52,13 +52,3 @@ Why join us?
 Personal growth: Mentoring is not only about helping others, it can also lead to personal growth and development. Through the mentorship experience, you may learn new skills, gain new perspectives, and challenge yourself to become a better version of yourself.
 I don’t think the eligibility page is necessary
 
-```html
-<div class="card mentor-card">
-    <img src="images/cards/joinus-mentee-left.png" class="card-img-top" alt="Join as mentee and expand">
-    <div class="card-body">
-        <h5 class="card-title">Mentor Name</h5>
-        <p class="card-text">Job title</p>
-        <p class="card-text">Company</p>
-    </div>
-</div>
-```
