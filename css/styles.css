@@ -668,12 +668,12 @@ section#section-about-program p {
 /********************/
 .cards-stats {
     text-align: center;
-    background: url("../images/bg-stats.jpg") center center no-repeat;
+    background: url("/images/bg-stats.jpg") center center no-repeat;
     background-size: cover;
 }
 
 .ananse-bg-bubbles {
-    background: url("../images/bg-bubbles.jpg") center center no-repeat;
+    background: url("/images/bg-bubbles.jpg") center center no-repeat;
     background-size: cover;
 }
 
@@ -766,7 +766,7 @@ div[id="statistics-for-desktop"] {
 /*********************/
 .cards-about {
     background: #DDEFF4;
-    /* background: linear-gradient(white, yellow), url("images/bg-about-spider.png"); */
+    /* background: linear-gradient(white, yellow), url("/images/bg-about-spider.png"); */
     text-align: center;
 }
 
@@ -807,7 +807,7 @@ div[id="statistics-for-desktop"] {
 /*********************/
 .basic-2 {
     text-align: center;
-    /* background: url("../images/details-2-background.jpg") center center no-repeat; */
+    /* background: url("/images/details-2-background.jpg") center center no-repeat; */
     background-size: cover;
 }
 
@@ -832,7 +832,7 @@ div[id="statistics-for-desktop"] {
 }
 
 .team-information {
-    /* background: url("../images/details-2-background.jpg") center center no-repeat; */
+    /* background: url("/images/details-2-background.jpg") center center no-repeat; */
     background-size: cover;
     text-align: center;
 }
