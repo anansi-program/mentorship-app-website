@@ -4,9 +4,19 @@ var _a;
 // Collapse the navbar by adding the top-nav-collapse class
 
 // On DOM Loaded:
-/* addEventListener("DOMContentLoaded", (event) => {
+addEventListener("DOMContentLoaded", (event) => {
+    if (window.location.pathname.includes("index.html"))
+    {document.querySelectorAll(".mentor-card .card-body .mentor-bio").forEach((mentor_bio)=> {
+        console.log(mentor_bio);
+        mentor_bio.onclick = function () {
+            mentor_bio.classList.toggle("mentor-bio");
+        };
+    })
 
-}); */
+}
+    else if (window.location.pathname.includes("mentors.html"))
+    {}
+});
 
 
 window.onscroll = function () {

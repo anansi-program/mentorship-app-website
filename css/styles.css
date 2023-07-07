@@ -1038,6 +1038,14 @@ section#section-join-us [id^='joinus-grid-'] {
 .mentor-card img {
     padding: 5px;
     border-radius: 1.5rem;
+    height: 400px;
+    object-fit: cover;
+}
+
+.mentor-card .card-body .mentor-bio {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /**********************/
