@@ -5,9 +5,8 @@ var _a;
 
 // On DOM Loaded:
 addEventListener("DOMContentLoaded", (event) => {
-    if (window.location.pathname.includes("index.html"))
+    if (window.location.pathname.includes("index.html") || window.location.pathname == "/")
     {document.querySelectorAll(".mentor-card .card-body .mentor-bio").forEach((mentor_bio)=> {
-        console.log(mentor_bio);
         mentor_bio.onclick = function () {
             mentor_bio.classList.toggle("mentor-bio");
         };

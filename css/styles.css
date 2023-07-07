@@ -1047,6 +1047,9 @@ section#section-join-us [id^='joinus-grid-'] {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.mentor-card .card-body .mentor-bio:hover {
+    text-decoration: underline;
+}
 
 /**********************/
 /*     Invitation     */
