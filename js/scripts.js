@@ -9,6 +9,12 @@ addEventListener("DOMContentLoaded", (event) => {
     {document.querySelectorAll(".mentor-card .card-body .mentor-bio").forEach((mentor_bio)=> {
         mentor_bio.onclick = function () {
             mentor_bio.classList.toggle("mentor-bio");
+            
+            mentor_bio.addEventListener("mouseover", (event) => {
+                console.log(event);
+                console.log("mentorbio mouseover from DOM");
+
+            });
         };
     })
 

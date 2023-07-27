@@ -912,7 +912,8 @@ section#section-join-us div .page-item {
 }
 
 .card .card-body .card-text {
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: left;
 }
 
 section#section-join-us div .page-link {
@@ -1047,9 +1048,10 @@ section#section-join-us [id^='joinus-grid-'] {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.mentor-card .card-body .mentor-bio:hover {
+
+/* .mentor-card .card-body .mentor-bio:hover {
     text-decoration: underline;
-}
+} */
 
 /**********************/
 /*     Invitation     */
