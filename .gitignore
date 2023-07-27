@@ -6,9 +6,14 @@ node_modules/
 /.pnp
 .pnp.js
 
+#linux
+*:Zone.Identifier
+
 # testing
 /coverage
+nohup.out
 
+# notes-internal.md
 
 # misc
 .DS_Store
